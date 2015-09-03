@@ -1,0 +1,15 @@
+package com.epam.hotelManager.command;
+
+import javax.servlet.http.HttpServletRequest;
+
+public class RegistrationCommand implements InterfaceCommand {
+
+	public RegistrationCommand() {
+	}
+
+	@Override
+	public String execute(HttpServletRequest request) {
+		return null;
+	}
+
+}

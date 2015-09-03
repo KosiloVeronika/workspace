@@ -1,0 +1,10 @@
+package com.epam.hotelManager.dao;
+
+import com.epam.hotelManager.entity.Library;
+import com.epam.hotelManager.entity.User;
+
+public interface DataAccessDao {
+	public Library getLibraryFromSource(Object ... args) throws DataAccessException;
+	public User getUserFromSource(String username) throws DataAccessException;
+	public boolean checkUser(String mail, String username, String password) throws DataAccessException;
+}

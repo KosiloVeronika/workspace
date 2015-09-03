@@ -1,0 +1,19 @@
+1440431549964	Delete element
+1440431903127	Rename local variable 'library'
+1440431981575	Encapsulate field 'room'
+1440503058770	Rename type 'Hotel'
+1440503072328	Rename type 'Room'
+1440503086419	Delete element
+1440503124244	Rename field 'roomID'
+1440503134644	Rename local variable 'roomID'
+1440503488814	Rename local variable 'room'
+1440503505357	Rename local variable 'hotel'
+1440503852995	Rename local variable 'room'
+1440593747834	Encapsulate field 'admin'
+1440753361993	Move 'com.mysql.jdbc_5.1.5.jar' to 'lib'
+1440753376830	Delete element
+1440764120404	Delete element
+1440764123292	Delete element
+1440764413544	Delete element
+1440944964992	Rename resource 'Registration.jsp'
+1440953188106	Rename local variable 'enterEmail'

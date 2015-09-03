@@ -1,0 +1,23 @@
+package com.epam.hotelManager.command;
+
+public enum EnumCommand {
+	LOGIN {
+		{
+			this.command = new LoginCommand();
+		}
+	},
+	REGISTRATION {
+		{
+			this.command = new LoginCommand();
+		}
+	},
+	LOGOUT {
+		{
+			this.command = new LogoutCommand();
+		}
+	};
+	InterfaceCommand command;
+	public InterfaceCommand getCurrentCommand() {
+		return command;
+	}
+}

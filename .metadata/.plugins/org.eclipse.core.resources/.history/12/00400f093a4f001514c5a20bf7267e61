@@ -1,0 +1,10 @@
+package com.epam.hotelManager.logic;
+
+public class RegistrationLogic {
+
+	public RegistrationLogic() {
+	}
+	public static boolean RegisterUser() {
+		return true;
+	}
+}
