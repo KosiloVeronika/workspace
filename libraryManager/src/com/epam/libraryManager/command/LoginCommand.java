@@ -25,8 +25,9 @@ public class LoginCommand implements InterfaceCommand {
 			if (LoginLogic.checkLogin(login, pass)) {
 				request.setAttribute("user", login);
 				// определение пути к main.jsp
-				//page = ConfigurationManager.getProperty("path.page.main");
-				page = "/jsp/main.jsp";
+				LOG.debug("user has been logged");
+				page = ConfigurationManager.getProperty("path.page.main");
+				//page = "/jsp/main.jsp";
 			} else {
 				request.setAttribute("errorLoginPassMessage",
 				MessageManager.getProperty("message.loginerror"));

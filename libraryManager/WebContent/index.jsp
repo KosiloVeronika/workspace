@@ -12,7 +12,7 @@
     <div class="vladmaxi-top">
         <a href="http://vladmaxi.net" target="_blank">Главная</a>
         <span class="right">
-        <a href="jsp/registration.jsp">
+        <a href="jsp/registration1.jsp">
                 <strong>Регистрация</strong>
             </a>
         </span>
@@ -23,15 +23,15 @@
       <h1>АВТОРИЗАЦИЯ</h1>
         <fieldset>
             <form method="POST" action="${pageContext.servletContext.contextPath}/Controller">
-            <input type="hidden" name="command" value="login" />
-                <input type="text" name="login" required value="Логин" onBlur="if(this.value=='')this.value='Логин'" onFocus="if(this.value=='Логин')this.value='' "> 
-                <input type="password" name="password" required value="Пароль" onBlur="if(this.value=='')this.value='Пароль'" onFocus="if(this.value=='Пароль')this.value='' "> 
-                <input type="submit" value="ВОЙТИ">
-                <br/>
-			${errorLoginPassMessage}
-		<br/>
-			${wrongAction}
-		<br/>
+	            <input type="hidden" name="command" value="login" />
+	                <input type="text" name="login" required value="Логин" onBlur="if(this.value=='')this.value='Логин'" onFocus="if(this.value=='Логин')this.value='' "> 
+	                <input type="password" name="password" required value="Пароль" onBlur="if(this.value=='')this.value='Пароль'" onFocus="if(this.value=='Пароль')this.value='' "> 
+	                <input type="submit" value="ВОЙТИ">
+	                <br/>
+					${errorLoginPassMessage}
+				<br/>
+					${wrongAction}
+				<br/>
             </form>
         </fieldset>
     </div> 

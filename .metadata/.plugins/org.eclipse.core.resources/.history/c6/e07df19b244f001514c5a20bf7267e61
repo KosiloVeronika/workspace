@@ -1,9 +1,0 @@
-package com.epam.hotelManager.logic;
-
-public class RegistrationLogic {
-
-	public RegistrationLogic() {
-		
-	}
-
-}

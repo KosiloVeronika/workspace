@@ -53,6 +53,7 @@ public class Controller extends HttpServlet {
 		//doGet(request, response);
 		LOG.error("7");
 		LOG.debug("PROCREQ");
+		LOG.info("whyyyyyyy?");
 		processRequest(request, response);
 	}
 	

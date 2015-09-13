@@ -1,11 +1,28 @@
 package com.epam.libraryManager.entity;
 
 public class User {
+	private String userID;
 	private String username;
 	private String email;
 	private String password;
 	private int admin;
 	
+	public String getUserID() {
+		return userID;
+	}
+
+	public void setUserID(String userID) {
+		this.userID = userID;
+	}
+
+	public int getAdmin() {
+		return admin;
+	}
+
+	public void setAdmin(int admin) {
+		this.admin = admin;
+	}
+
 	public String getUsername() {
 		return username;
 	}

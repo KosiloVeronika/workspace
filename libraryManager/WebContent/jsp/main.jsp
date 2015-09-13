@@ -5,8 +5,8 @@
 <head>
 	<link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>main</title>
+	<meta http-equiv="welcome-file-list" content="text/html; charset=utf-8">
+	<title>registration</title>
 </head>
 <body>
     <div class="vladmaxi-top">
