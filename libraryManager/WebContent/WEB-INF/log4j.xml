@@ -5,7 +5,7 @@
 		<layout class="org.apache.log4j.SimpleLayout"/>
 	</appender>
 	<appender name="A1" class="org.apache.log4j.DailyRollingFileAppender">
-		<param name="File" value="C://apache-tomcat-7.0.63//wtpwebapps//libraryManager//WEB-INF//log//log.txt" />
+		<param name="File" value="C:/Users/Veronika/workspace/libraryManager/WebContent/WEB-INF/loglog.txt" />
 		<param name="Append" value="true" />
 		<param name="DatePattern" value="'.'yyyy-MM-dd" />
 		<layout class="org.apache.log4j.PatternLayout" >

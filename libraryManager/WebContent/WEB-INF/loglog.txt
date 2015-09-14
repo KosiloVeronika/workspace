@@ -1,0 +1,12 @@
+2015-09-14 12:51:46,471 [http-bio-8080-exec-5] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-14 12:51:46,473 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-14 12:51:46,473 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.controller.Controller  - whyyyyyyy?
+2015-09-14 12:51:46,473 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-14 12:51:46,774 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-14 13:00:34,771 [http-bio-8080-exec-10] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-14 13:00:34,772 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-14 13:00:34,772 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.controller.Controller  - whyyyyyyy?
+2015-09-14 13:00:34,772 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-14 13:00:34,853 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-14 13:00:38,539 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-14 13:00:38,540 [http-bio-8080-exec-10] ERROR com.epam.libraryManager.controller.Controller  - 7
