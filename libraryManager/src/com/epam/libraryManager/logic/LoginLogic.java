@@ -2,8 +2,8 @@ package com.epam.libraryManager.logic;
 
 import org.apache.log4j.Logger;
 
+import com.epam.libraryManager.dao.DaoException;
 import com.epam.libraryManager.dao.DataAccessDao;
-import com.epam.libraryManager.dao.DataAccessException;
 import com.epam.libraryManager.dao.DatabaseDao;
 import com.epam.libraryManager.entity.User;
 
@@ -12,13 +12,14 @@ public class LoginLogic {
 	public static boolean checkLogin(String enterLogin, String enterPass) throws LogicException {
 		DataAccessDao dataaccess = new DatabaseDao();
 		try {
-			User user = dataaccess.getUserFromSource(enterLogin);
-			return user.getPassword().equals(enterPass) && user.getUsername().equals(enterLogin);
-		} catch (DataAccessException e) {
+			User user = dataaccess.getUserFromSource(enterLogin, enterPass);
+			if(user != null) {
+				return true;
+			}
+			return false;
+		} catch (DaoException e) {
 			throw new LogicException(e.getMessage(), e);
 		}
-		
-		//return ADMIN_LOGIN.equals(enterLogin) && ADMIN_PASS.equals(enterPass);
 	}
 
 }

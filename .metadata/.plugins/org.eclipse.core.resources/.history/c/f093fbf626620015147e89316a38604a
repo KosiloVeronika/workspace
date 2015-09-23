@@ -1,0 +1,6 @@
+<html>
+<body>
+	<a href="libraryManager/Controller?command=locale&language=english">Eng</a> 
+		| <a href="libraryManager/Controller?command=locale&language=russian">Rus</a>
+</body>
+<html/>

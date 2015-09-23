@@ -1,0 +1,12 @@
+package com.epam.libraryManager.tags;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.jsp.tagext.TagSupport;
+
+public class SwitchLocaleTag extends TagSupport {
+
+	public SwitchLocaleTag() {
+		HttpServletRequest request = (HttpServletRequest) pageContext.getRequest();
+	}
+
+}

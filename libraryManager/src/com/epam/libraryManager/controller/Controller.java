@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 
@@ -23,7 +24,6 @@ import com.epam.libraryManager.resource.MessageManager;
 public class Controller extends HttpServlet {
 	 static {
 		 	System.out.println("hello kiti");
-		 	
 		}
 	private static final long serialVersionUID = 1L;
 	private final static Logger LOG = Logger.getLogger(Controller.class);       
@@ -32,36 +32,33 @@ public class Controller extends HttpServlet {
      */
     public Controller() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		processRequest(request, response);
-		LOG.error("7");
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		//doGet(request, response);
+		processRequest(request, response);
 		LOG.error("7");
 		LOG.debug("PROCREQ");
 		LOG.info("whyyyyyyy?");
-		processRequest(request, response);
 	}
 	
 	private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 			String page = null;
-			LOG.debug("PROCREQ");
+			//HttpSession session = request.getSession(true);
+			//LOG.info("whyyyyyyy?");
 			// определение команды, пришедшей из JSP
 			CommandFactory client = new CommandFactory();
+			System.out.println(request.getParameter("command"));
+			System.out.println(request.getParameter("language"));
 			InterfaceCommand command = client.defineCommand(request);
 			/*
 			* вызов реализованного метода execute() и передача параметров
@@ -70,17 +67,10 @@ public class Controller extends HttpServlet {
 			page = command.execute(request);
 			// метод возвращает страницу ответа
 			// page = null; // поэксперементировать!
-			if (page != null) {
 				RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(page);
 				// вызов страницы ответа на запрос
 				dispatcher.forward(request, response);
-			} else {
-				// установка страницы c cообщением об ошибке
-				page = ConfigurationManager.getProperty("path.page.index");
-				request.getSession().setAttribute("nullPage",
-				MessageManager.getProperty("message.nullpage"));
-				response.sendRedirect(request.getContextPath() + page);
-			}
+			
 	}
 
 }

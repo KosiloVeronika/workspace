@@ -1,0 +1,7 @@
+window.onload = function(e) {
+	console.log(document.getElementsByName('login')[0]);
+	var loginField = $('[name=login]');
+	loginField.keypress(function(e) {
+		console.log('lol');
+	});
+}

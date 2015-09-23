@@ -10,7 +10,6 @@ public class ConfigurationManager {
 	// класс извлекает информацию из файла config.properties
 	private ConfigurationManager() { }
 	public static String getProperty(String key) {
-		System.out.println("confMan");
-	return resourceBundle.getString(key);
+		return resourceBundle.getString(key);
 	}
 }

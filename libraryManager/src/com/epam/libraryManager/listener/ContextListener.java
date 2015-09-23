@@ -10,13 +10,9 @@ import javax.servlet.annotation.WebListener;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.xml.DOMConfigurator;
 
-/**
- * Application Lifecycle Listener implementation class ContextListener
- *
- */
+
 @WebListener
 public class ContextListener implements ServletContextListener {
-	private Connection connection;
 	/**
      * @see ServletContextListener#contextDestroyed(ServletContextEvent)
      */
@@ -27,7 +23,6 @@ public class ContextListener implements ServletContextListener {
      * @see ServletContextListener#contextInitialized(ServletContextEvent)
      */
     public void contextInitialized(ServletContextEvent event)  { 
-    	ServletContext context = event.getServletContext();
     	String absPath = event.getServletContext().getRealPath("/")+"WEB-INF\\log4j.xml";
     			new DOMConfigurator().doConfigure(absPath,LogManager.getLoggerRepository());
     			System.out.println("absPath"+absPath);

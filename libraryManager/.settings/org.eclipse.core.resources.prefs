@@ -4,3 +4,5 @@ encoding//WebContent/jsp/main.jsp=UTF-8
 encoding//WebContent/jsp/registration.jsp=UTF-8
 encoding//WebContent/jspf/header.jsp=UTF-8
 encoding//WebContent/jspf/hello_user.jsp=UTF-8
+encoding//src/resources/info_messages_en_EN.properties=UTF-8
+encoding//src/resources/info_messages_ru_RU.properties=UTF-8

@@ -1,0 +1,9 @@
+package com.epam.libraryManager.logic;
+
+public class LocaleDefiner {
+
+	public LocaleDefiner() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

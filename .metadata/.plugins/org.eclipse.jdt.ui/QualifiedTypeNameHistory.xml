@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.apache.log4j.lf5.viewer.configure.ConfigurationManager"/>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
 <fullyQualifiedTypeName name="java.util.ResourceBundle"/>
 <fullyQualifiedTypeName name="com.epam.hotelManager.command.InterfaceCommand"/>
 <fullyQualifiedTypeName name="com.epam.hotelManager.command.CommandFactory"/>
@@ -9,7 +8,6 @@
 <fullyQualifiedTypeName name="com.epam.hotelManager.resource.MessageManager"/>
 <fullyQualifiedTypeName name="com.epam.hotelManager.logic.LoginLogic"/>
 <fullyQualifiedTypeName name="com.epam.hotelManager.resource.ConfigurationManager"/>
-<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="org.apache.log4j.xml.DOMConfigurator"/>
 <fullyQualifiedTypeName name="org.apache.log4j.LogManager"/>
 <fullyQualifiedTypeName name="java.util.concurrent.BlockingQueue"/>
@@ -28,4 +26,16 @@
 <fullyQualifiedTypeName name="com.epam.hotelManager.dao.DataAccessDao"/>
 <fullyQualifiedTypeName name="com.epam.hotelManager.dao.DatabaseDao"/>
 <fullyQualifiedTypeName name="com.epam.hotelManager.entity.User"/>
+<fullyQualifiedTypeName name="javax.crypto.spec.PBEKeySpec"/>
+<fullyQualifiedTypeName name="javax.crypto.SecretKeyFactory"/>
+<fullyQualifiedTypeName name="com.epam.libraryManager.dao.DaoException"/>
+<fullyQualifiedTypeName name="com.epam.libraryManager.logic.LogicException"/>
+<fullyQualifiedTypeName name="com.epam.libraryManager.resource.ConfigurationManager"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+<fullyQualifiedTypeName name="com.epam.libraryManager.tags.SwitchLocaleTag"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="com.epam.libraryManager.logic.LocaleDefiner"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 </qualifiedTypeNameHistroy>

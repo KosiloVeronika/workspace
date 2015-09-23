@@ -1,109 +1,117 @@
 package com.epam.libraryManager.dao;
 
+import java.security.NoSuchAlgorithmException;
+import java.security.spec.InvalidKeySpecException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ArrayList;
+import java.util.Random;
+
+import javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.PBEKeySpec;
 
 import com.epam.libraryManager.connectionpool.ConnectionPool;
 import com.epam.libraryManager.connectionpool.ConnectionPoolException;
-import com.epam.libraryManager.entity.Book;
-import com.epam.libraryManager.entity.Library;
 import com.epam.libraryManager.entity.User;
+import com.epam.libraryManager.resource.ConfigurationManager;
 
 public class DatabaseDao implements DataAccessDao {
-	private final static String QUERY = "SELECT * FROM `user`";
+	private final String CHECK_USER_BY_USERNAME = "SELECT * FROM `user` WHERE username = '%s' ";
+	private final String CHECK_USER_BY_MAIL = "SELECT * FROM `user` WHERE mail = '%s' ";
+	private final String REGISTRATION_QUERY = "INSERT INTO user(mail, password, salt, admin, username) VALUES(?,?,?,?,?)";
     private Connection connection;
     private Statement statement;
     private ResultSet resultSet;
-    @Override
-    public Library getLibraryFromSource(Object ... args) throws DatabaseException {
-        try {
-            ConnectionPool pool = ConnectionPool.getInstance();
-            connection = pool.getConnection();
-            statement = connection.createStatement();
-            resultSet = statement.executeQuery(QUERY);
-            
-            Library library = new Library();
-            ArrayList<Book> books = (ArrayList<Book>) library.getRoom();
-
-            while (resultSet.next()) {
-                Book book = new Book();
-                
-                book.setBookID(resultSet.getString("ID"));
-                book.setBookAuthor(resultSet.getString("bookAuthor"));
-                //book.setGenre((Genre)resultSet.getString("genre"));
-                book.setBookName(resultSet.getString("bookName"));
-                book.setPublishingDate(resultSet.getInt("publishingDate"));
-
-                books.add(book);
-            }
-            pool.freeConnection(connection);
-            pool.closeConnections();
-            return library;
-
-        } catch (SQLException | ConnectionPoolException ex) {
-            throw new DatabaseException(ex);
-        }
-        
-    }
+   
 	@Override
-	public User getUserFromSource(String username) throws DataAccessException {
+	public User getUserFromSource(String username, String password) throws DaoException {
+
+        ConnectionPool pool = ConnectionPool.getInstance();
         try {
-        	String query = String.format("SELECT * FROM `user` WHERE username = '%s' ", username);
-            ConnectionPool pool = ConnectionPool.getInstance();
+        	String query = String.format(CHECK_USER_BY_USERNAME , username);
             connection = pool.getConnection();
             statement = connection.createStatement();
             resultSet = statement.executeQuery(query);
 
-            User user = new User();
+            User user = null;
             while (resultSet.next()) {
-            	
-                user.setEmail(resultSet.getString("mail"));
-                user.setPassword(resultSet.getString("password"));
-                user.setUsername(resultSet.getString("username"));
-                user.setIsAdmin(resultSet.getInt("admin"));
+                String hashPassword = resultSet.getString("password");
+                byte[] salt = resultSet.getString("salt").getBytes();
+                if(hashPasswordWithSalt(password, salt).equals(hashPassword)) {
+                	System.out.println("WTF");
+                	user = new User();
+                	user.setUsername(resultSet.getString("username"));
+                    user.setIsAdmin(resultSet.getInt("admin"));
+                }
                 System.out.println(user.toString());
-                
-               // books.add(user);
             }
-            pool.freeConnection(connection);
-            pool.closeConnections();
             return user;
 
         } catch (SQLException | ConnectionPoolException ex) {
-            throw new DatabaseException(ex);
+            throw new DaoException(ex);
+        } finally {
+        	pool.freeConnection(connection);
         }
         
 	}
 	
 	@Override
-	public boolean checkUser(String mail, String username, String password) throws DatabaseException {
+	public boolean checkUser(String mail, String username, String password) throws DaoException {
+		ConnectionPool pool = ConnectionPool.getInstance();
+		PreparedStatement ps;
+		String hashPasswrd;
+    	byte[] salt;
 		try {
-			String query = String.format("SELECT * FROM `user` WHERE mail = '%s' ", mail);
-            ConnectionPool pool = ConnectionPool.getInstance();
+			String query = String.format(CHECK_USER_BY_MAIL, mail);
             connection = pool.getConnection();
             statement = connection.createStatement();
             resultSet = statement.executeQuery(query);
-            //System.out.println(resultSet.next());
             if (!resultSet.next()) {
-            	PreparedStatement ps = connection.prepareStatement("INSERT INTO user(mail, password,admin, username) VALUES(?,?,?,?)");
+            	ps = connection.prepareStatement(REGISTRATION_QUERY);
+            	salt = makeSalt();
+            	hashPasswrd = hashPasswordWithSalt(password, salt);
+            	System.out.println(hashPasswrd);
             	ps.setString(1, mail);
-            	ps.setString(2, password);
-            	ps.setInt(3, 0);
-            	ps.setString(4, username);
+            	ps.setString(2, hashPasswrd);
+            	ps.setString(3, new String(salt));
+            	ps.setInt(4, 0);
+            	ps.setString(5, username);
             	ps.executeUpdate();
             	return true;
             } 
-            pool.freeConnection(connection);
-            pool.closeConnections();
             return false;
 
         } catch (SQLException | ConnectionPoolException ex) {
-            throw new DatabaseException(ex);
-        }
+            throw new DaoException(ex);
+        } finally {
+        	//closeStatement(ps);
+			pool.freeConnection(connection);
+		}
+	}
+	
+	private String hashPasswordWithSalt(String password, byte[] salt) throws DaoException {
+		password += ConfigurationManager.getProperty("crypt.localParameter");
+		PBEKeySpec pbe = new PBEKeySpec(password.toCharArray(), salt, 4096, 1024);
+		byte[] keyArray;
+		try {
+			SecretKeyFactory secretKeyFactory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA1");
+			SecretKey key = secretKeyFactory.generateSecret(pbe);
+			keyArray = key.getEncoded();
+		} catch (NoSuchAlgorithmException | InvalidKeySpecException e) {
+			throw new DaoException(e);
+		} 
+		return new String(keyArray);
+	}
+	
+	private byte[] makeSalt() {
+		Random random = new Random();
+		int saltLength = 12 + random.nextInt(6); 
+		byte[] salt = new byte[saltLength];
+		random.nextBytes(salt);
+		return salt;
 	}
     
 }

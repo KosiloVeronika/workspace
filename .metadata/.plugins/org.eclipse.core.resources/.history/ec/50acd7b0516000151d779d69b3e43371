@@ -1,0 +1,17 @@
+package com.epam.libraryManager.logic;
+
+import java.util.Locale;
+
+public class LocaleDefiner {
+
+	public LocaleDefiner() { }
+	
+	public static Locale defineLocale(String language) throws LogicException {
+		if(language == null || language.isEmpty()) {
+			throw new LogicException("!");
+		}
+		return null;
+		
+	}
+
+}

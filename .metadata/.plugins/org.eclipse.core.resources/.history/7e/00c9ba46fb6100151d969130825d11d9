@@ -1,0 +1,16 @@
+package com.epam.libraryManager.tags;
+
+import javax.servlet.jsp.tagext.TagSupport;
+
+public class SwitchLocaleTag extends TagSupport {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public SwitchLocaleTag() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,7 +1,7 @@
 package com.epam.libraryManager.logic;
 
+import com.epam.libraryManager.dao.DaoException;
 import com.epam.libraryManager.dao.DataAccessDao;
-import com.epam.libraryManager.dao.DataAccessException;
 import com.epam.libraryManager.dao.DatabaseDao;
 
 public class RegistrationLogic {
@@ -12,7 +12,7 @@ public class RegistrationLogic {
 		DataAccessDao dataaccess = new DatabaseDao();
 		try {
 			return dataaccess.checkUser(mail, username, password);
-		} catch (DataAccessException e) {
+		} catch (DaoException e) {
 			throw new LogicException(e.getMessage(), e);
 		}
 		

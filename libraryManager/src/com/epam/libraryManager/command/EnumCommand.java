@@ -6,6 +6,11 @@ public enum EnumCommand {
 			this.command = new LoginCommand();
 		}
 	},
+	LOCALE {
+		{
+			this.command = new ChangeLocaleCommand();
+		}
+	},
 	REGISTRATION {
 		{
 			this.command = new RegistrationCommand();

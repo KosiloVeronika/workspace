@@ -1,0 +1,2 @@
+<a href="controller?command=locale&language=english">Eng</a> 
+		| <a href="controller?command=locale&language=russian">Rus</a>

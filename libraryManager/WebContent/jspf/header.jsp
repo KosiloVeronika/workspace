@@ -2,21 +2,29 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="i" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="ctg" uri="/WEB-INF/tld/custom.tld" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<fmt:setLocale value="${locale}"/>
+<fmt:setBundle basename="resources.info_messages" var="resourceBundle"/>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
 <body>
 	<header>
+		
 	    <div class="vladmaxi-top">
-	        <a href="http://vladmaxi.net" target="_blank">Главная</a>
+	    <c:choose>
+		    <c:when test="${user == null}">
+		    	<ctg:locale-switch/>
+		    </c:when>
+	    </c:choose>
 	        <span class="right">
 	        <c:choose>
 	        	<c:when test="${user == null}">
-					<a href="jsp/registration.jsp">
-	                	<strong>Регистрация</strong>
+					<a href="<c:url value="/jsp/registration.jsp"/>">
+	                	<strong><fmt:message key="lables.registration" bundle="${resourceBundle }"/></strong>
 	            	</a>
 				</c:when>
 				<c:otherwise>

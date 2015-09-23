@@ -5,10 +5,18 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.locks.ReentrantLock;
+
+import org.apache.log4j.Logger;
 
 public final class ConnectionPool {
-	private static ConnectionPool instance;
+	
+	private static final Logger LOG = Logger.getLogger(ConnectionPool.class);
+	private static AtomicBoolean instanceCreated = new AtomicBoolean();
+	private static ConnectionPool instance;	
     private final int connectionsCount;
+    private static ReentrantLock lock = new ReentrantLock();
     private final BlockingQueue<Connection> connectionList;
     
     private final static String DRIVER_CLASS = "org.gjt.mm.mysql.Driver";
@@ -16,7 +24,7 @@ public final class ConnectionPool {
     private final static String LOGIN = "root";
     private final static String PASSWORD = "12345";
     
-    private ConnectionPool() throws ConnectionPoolException{
+    private ConnectionPool() {
         try {
             connectionsCount = 10;
             connectionList = new ArrayBlockingQueue<>(connectionsCount);
@@ -27,15 +35,24 @@ public final class ConnectionPool {
             }
             
         } catch (ClassNotFoundException | SQLException ex) {
-            throw new ConnectionPoolException(ex);
-        }
+        	LOG.fatal(ex);
+			throw new ExceptionInInitializerError(ex);
+		}
     }
     
-    public static ConnectionPool getInstance() throws ConnectionPoolException{
-        if (instance == null){
-            instance = new ConnectionPool();
-        }
-        return instance;
+    public static ConnectionPool getInstance() {
+    	if(!instanceCreated.get()) {
+			lock.lock();
+			try {
+				if(!instanceCreated.get()) {
+					instance = new ConnectionPool();
+					instanceCreated.set(true);
+				}
+			} finally {
+				lock.unlock();
+			}
+		}
+		return instance;
     }
     
     public Connection getConnection() throws ConnectionPoolException{
@@ -48,13 +65,13 @@ public final class ConnectionPool {
         return connection;
     }
     
-    public void freeConnection(Connection connection)  throws ConnectionPoolException{
+    public void freeConnection(Connection connection)  {
         try {
             if (connection != null){
                 connectionList.put(connection);
             }
         } catch (InterruptedException ex) {
-            throw  new ConnectionPoolException(ex);
+    			LOG.error(ex);
         }
     }
     

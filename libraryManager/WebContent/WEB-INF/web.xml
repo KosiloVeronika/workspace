@@ -11,5 +11,8 @@
   <error-page>
     <exception-type>java.lang.RuntimeException</exception-type>
     <location>/jsp/error/error.jsp</location>
-  </error-page>
+  </error-page>  
+  <session-config>
+	<session-timeout>30</session-timeout>
+  </session-config>
 </web-app>

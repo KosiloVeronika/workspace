@@ -1,9 +1,0 @@
-package com.epam.libraryManager.entity;
-
-public class UserCard {
-
-	public UserCard() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

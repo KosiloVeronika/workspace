@@ -31,8 +31,8 @@ public class RegistrationCommand implements InterfaceCommand {
 			if (RegistrationLogic.RegisterUser(email, login, pass)) {
 				request.setAttribute("user", login);
 				// определение пути к main.jsp
-				//page = ConfigurationManager.getProperty("path.page.main");
-				page = "/jsp/main.jsp";
+				page = ConfigurationManager.getProperty("path.page.main");
+				//page = "/jsp/main.jsp";
 			} else {
 				request.setAttribute("errorRegistrationPassMessage",
 				MessageManager.getProperty("message.registrationerror"));

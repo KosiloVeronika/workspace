@@ -1,12 +1,366 @@
-2015-09-14 12:51:46,471 [http-bio-8080-exec-5] ERROR com.epam.libraryManager.controller.Controller  - 7
-2015-09-14 12:51:46,473 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
-2015-09-14 12:51:46,473 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.controller.Controller  - whyyyyyyy?
-2015-09-14 12:51:46,473 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
-2015-09-14 12:51:46,774 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
-2015-09-14 13:00:34,771 [http-bio-8080-exec-10] ERROR com.epam.libraryManager.controller.Controller  - 7
-2015-09-14 13:00:34,772 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
-2015-09-14 13:00:34,772 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.controller.Controller  - whyyyyyyy?
-2015-09-14 13:00:34,772 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
-2015-09-14 13:00:34,853 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
-2015-09-14 13:00:38,539 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
-2015-09-14 13:00:38,540 [http-bio-8080-exec-10] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 17:03:26,412 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:03:27,494 [http-bio-8080-exec-1] ERROR com.epam.libraryManager.command.LoginCommand  - LOGIN ERROR
+com.epam.libraryManager.logic.LogicException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''''' at line 1
+	at com.epam.libraryManager.logic.LoginLogic.checkLogin(LoginLogic.java:21)
+	at com.epam.libraryManager.command.LoginCommand.execute(LoginCommand.java:25)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:61)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:48)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''''' at line 1
+	at com.epam.libraryManager.dao.DatabaseDao.getUserFromSource(DatabaseDao.java:54)
+	at com.epam.libraryManager.logic.LoginLogic.checkLogin(LoginLogic.java:15)
+	... 25 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''''' at line 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2537)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2466)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at com.epam.libraryManager.dao.DatabaseDao.getUserFromSource(DatabaseDao.java:37)
+	... 26 more
+2015-09-22 17:07:18,070 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:08:44,435 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:08:49,025 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:09:05,380 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:09:22,542 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:10:15,570 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:11:04,254 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:11:34,774 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:11:50,916 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:12:20,717 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:13:52,496 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:14:20,571 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:14:54,327 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:16:18,963 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:16:58,364 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:18:42,959 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:19:16,119 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:19:26,476 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:19:44,823 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:20:42,357 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:21:15,277 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:23:25,338 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:24:21,196 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:25:15,759 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:25:59,236 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:26:09,251 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:26:19,481 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:26:34,873 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:27:21,555 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:28:31,320 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:32:09,002 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:33:00,131 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:33:17,597 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:33:51,390 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:35:42,546 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:37:48,664 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:40:48,835 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:43:48,064 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:44:00,356 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:44:07,292 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:44:14,272 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:44:17,187 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:44:31,000 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:45:16,011 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:48:03,392 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:48:24,361 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:49:29,265 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:50:01,753 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:50:37,071 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:51:37,722 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:52:25,822 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:52:45,108 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:53:23,603 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:55:26,761 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:55:32,994 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:56:13,450 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:56:21,819 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:56:51,171 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:56:58,038 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:57:44,870 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:57:58,044 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:58:22,192 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:58:30,056 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:58:49,446 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:59:00,157 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:59:05,517 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:59:11,417 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:59:48,065 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 17:59:53,667 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:00:01,459 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:00:15,390 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:00:30,187 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:00:40,158 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:01:18,916 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:01:24,525 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:01:34,018 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:01:43,779 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:02:05,520 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:02:18,616 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:02:20,013 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:02:24,085 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:02:25,000 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:02:26,298 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:02:29,921 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:02:46,192 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:02:49,955 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:02:56,386 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:03:19,409 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:03:28,224 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:03:41,012 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:04:22,350 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:04:28,924 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:04:37,569 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:04:44,208 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:05:22,983 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:05:40,494 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:05:41,132 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:05:41,434 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:05:41,903 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:05:42,216 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:05:42,299 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:05:42,519 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:05:42,614 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:05:42,916 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:05:43,656 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:06:00,836 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:06:09,665 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:06:17,916 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:06:34,029 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:06:57,104 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:07:05,163 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:07:09,045 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:07:10,178 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:07:40,501 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:07:51,743 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:07:59,685 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:08:33,363 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:08:37,738 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:08:38,566 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:08:49,425 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:08:50,042 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:08:50,832 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:08:52,415 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:08:53,799 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:08:54,994 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:04,839 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:05,677 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:06,224 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:06,504 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:06,586 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:06,817 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:06,917 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:07,233 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:18,068 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:18,809 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:19,368 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:19,770 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:20,103 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:24,321 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:24,844 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:25,176 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:25,476 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:25,592 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:25,841 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:33,141 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:33,802 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:34,284 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:34,786 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:35,279 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:35,790 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:36,260 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:36,738 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:37,270 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:37,702 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:38,023 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:38,378 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:38,569 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:47,083 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:48,620 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:09:49,779 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:11:31,656 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:12:09,878 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:12:11,694 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:12:21,116 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:12:26,338 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:12:40,706 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:12:42,285 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:12:43,347 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:12:44,734 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:13:03,777 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:13:34,672 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:14:42,107 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:14:51,131 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:14:52,548 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:14:53,442 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:14:54,307 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:14:57,595 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:16:31,142 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:16:39,103 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:16:41,077 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:16:41,950 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:16:42,764 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:16:43,521 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:16:44,187 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:16:44,812 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:17:07,834 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:18:18,930 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:18:20,731 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:19:42,865 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:19:44,715 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:19:45,550 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:20:12,557 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:20:13,455 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:20:14,153 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:22:08,479 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:22:16,978 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:22:38,624 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:22:56,446 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:24:15,110 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:24:17,695 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:24:27,450 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:24:32,780 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:24:33,200 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:24:56,826 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:25:18,012 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:25:19,349 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:25:20,019 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:25:20,645 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:25:21,300 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:25:21,877 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:25:23,415 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:25:59,150 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:26:03,745 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:26:04,440 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:26:18,257 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:26:28,668 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:28:13,480 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:28:41,808 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:29:35,370 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:31:14,093 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:34:31,381 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:34:59,875 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:36:00,441 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:36:01,307 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:36:30,515 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:36:32,623 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:36:33,393 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:36:34,099 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:36:34,751 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:36:35,353 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:36:35,987 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:43:48,381 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 18:58:17,067 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:02:52,388 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:03:03,774 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:03:59,864 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:04:16,592 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:04:49,826 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:09:01,385 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:09:38,970 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:09:41,960 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:09:43,650 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:09:58,326 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:10:34,125 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:10:36,604 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:10:45,702 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:10:47,445 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:12:35,187 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:12:36,363 [http-bio-8080-exec-8] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 19:12:38,353 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:12:38,356 [http-bio-8080-exec-10] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 19:12:39,392 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:12:39,394 [http-bio-8080-exec-10] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 19:12:40,318 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:12:40,319 [http-bio-8080-exec-10] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 19:12:47,166 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:12:47,422 [http-bio-8080-exec-5] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 19:12:48,304 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:12:48,305 [http-bio-8080-exec-5] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 19:13:13,013 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:13:13,017 [http-bio-8080-exec-1] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 19:13:13,991 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:13:13,993 [http-bio-8080-exec-1] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 19:13:56,037 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:13:56,040 [http-bio-8080-exec-10] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 19:19:15,632 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:20:11,780 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:20:12,101 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-22 19:23:13,511 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:23:13,569 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-22 19:25:17,682 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:25:17,726 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-22 19:25:23,925 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:25:24,016 [http-bio-8080-exec-9] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 19:26:13,478 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:26:16,433 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:26:16,484 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-22 19:26:33,933 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:26:33,935 [http-bio-8080-exec-4] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 19:27:53,203 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:27:53,253 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-22 19:30:18,086 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:30:18,459 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-22 19:30:20,743 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:30:20,750 [http-bio-8080-exec-5] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 19:31:30,042 [http-bio-8080-exec-15] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:31:30,089 [http-bio-8080-exec-15] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-22 19:31:34,959 [http-bio-8080-exec-15] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:31:34,961 [http-bio-8080-exec-15] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 19:33:38,887 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:33:39,490 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-22 19:38:53,674 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:38:53,733 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-22 19:38:55,873 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:38:55,877 [http-bio-8080-exec-2] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 19:39:10,650 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:39:10,696 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-22 19:52:13,203 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 19:52:13,219 [http-bio-8080-exec-9] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-22 23:24:25,079 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 23:24:25,742 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-22 23:24:38,195 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-22 23:24:38,197 [http-bio-8080-exec-4] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-23 11:28:00,901 [http-bio-8080-exec-11] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-23 11:28:01,342 [http-bio-8080-exec-11] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-23 11:29:00,072 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-23 11:29:00,502 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-23 11:29:05,258 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-23 11:29:05,294 [http-bio-8080-exec-6] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-23 16:22:30,849 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-23 16:22:31,095 [http-bio-8080-exec-2] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-23 16:22:42,383 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-23 16:22:42,392 [http-bio-8080-exec-7] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-23 16:22:47,626 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-23 16:22:47,633 [http-bio-8080-exec-7] ERROR com.epam.libraryManager.controller.Controller  - 7

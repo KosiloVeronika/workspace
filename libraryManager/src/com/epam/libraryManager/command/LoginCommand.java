@@ -27,15 +27,13 @@ public class LoginCommand implements InterfaceCommand {
 				// определение пути к main.jsp
 				LOG.debug("user has been logged");
 				page = ConfigurationManager.getProperty("path.page.main");
-				//page = "/jsp/main.jsp";
 			} else {
 				request.setAttribute("errorLoginPassMessage",
 				MessageManager.getProperty("message.loginerror"));
 				page = ConfigurationManager.getProperty("path.page.login");
 			}
-		} catch (LogicException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		} catch (LogicException ex) {
+			LOG.error("LOGIN ERROR", ex);
 		}
 		return page;
 	}

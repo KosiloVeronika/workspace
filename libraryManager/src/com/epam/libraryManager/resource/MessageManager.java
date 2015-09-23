@@ -10,6 +10,6 @@ public class MessageManager {
 	// класс извлекает информацию из файла messages.properties
 	private MessageManager() { }
 	public static String getProperty(String key) {
-	return resourceBundle.getString(key);
+		return resourceBundle.getString(key);
 	}
 }
