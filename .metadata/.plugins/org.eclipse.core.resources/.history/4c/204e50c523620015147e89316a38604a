@@ -1,6 +1,0 @@
-<html>
-<body>
-	<a href="/Controller?command=locale&language=english">Eng</a> 
-		| <a href="/Controller?command=locale&language=russian">Rus</a>
-</body>
-<html/>

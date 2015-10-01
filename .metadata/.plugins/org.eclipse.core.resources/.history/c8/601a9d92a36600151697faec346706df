@@ -1,0 +1,12 @@
+package com.bsuir.adbLab1.entity;
+
+public class Citizenship {
+
+	private int id;
+	private String citizenship;
+	
+	public Citizenship() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -18,7 +18,7 @@ public class LoginLogic {
 			}
 			return false;
 		} catch (DaoException e) {
-			throw new LogicException(e.getMessage(), e);
+			throw new LogicException("bla bla", e);
 		}
 	}
 

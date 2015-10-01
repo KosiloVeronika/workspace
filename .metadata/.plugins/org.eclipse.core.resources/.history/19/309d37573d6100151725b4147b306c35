@@ -1,8 +1,0 @@
-window.onload = function(e) {
-	console.log(document.getElementsByName('login')[0]);
-	var loginField = $('[name=login]').first();
-	loginField.keypress(function(e) {
-		var loginField = $('[name=login]');
-		var loginValue = loginField.val();
-	});
-}

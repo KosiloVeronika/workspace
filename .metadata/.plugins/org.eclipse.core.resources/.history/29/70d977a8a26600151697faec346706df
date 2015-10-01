@@ -1,0 +1,9 @@
+package com.bsuir.adbLab1.entity;
+
+public class City {
+
+	public City() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

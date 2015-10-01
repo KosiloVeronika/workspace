@@ -1,0 +1,9 @@
+package com.bsuir.adbLab1.entity;
+
+public class Citizenship {
+
+	public Citizenship() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

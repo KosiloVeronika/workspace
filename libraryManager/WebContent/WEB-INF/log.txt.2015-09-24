@@ -1,0 +1,27 @@
+2015-09-24 01:24:31,067 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-09-24 01:24:31,067 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.ChangeLocaleCommand  - wtf!4!!
+2015-09-24 01:24:31,067 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.logic.LocaleDefiner  - Ï˚ ‚ ÎÓ„ËÍÂ
+2015-09-24 01:24:31,067 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.ChangeLocaleCommand  - wtf!!!
+2015-09-24 10:18:19,228 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-09-24 10:18:19,443 [http-bio-8080-exec-1] FATAL com.epam.libraryManager.connectionpool.ConnectionPool  - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'test_db'
+2015-09-24 10:18:33,734 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-09-24 10:18:33,991 [http-bio-8080-exec-3] FATAL com.epam.libraryManager.connectionpool.ConnectionPool  - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'test_db'
+2015-09-24 10:19:16,693 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-09-24 10:19:17,331 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-24 10:19:17,343 [http-bio-8080-exec-6] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-24 10:19:17,343 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-24 10:19:17,343 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.controller.Controller  - whyyyyyyy?
+2015-09-24 12:14:21,800 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-09-24 12:14:21,848 [http-bio-8080-exec-2] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-24 12:14:21,848 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-24 12:14:21,848 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.controller.Controller  - whyyyyyyy?
+2015-09-24 12:15:43,640 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-09-24 12:15:43,643 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.logic.LocaleDefiner  - Ï˚ ‚ ÎÓ„ËÍÂ
+2015-09-24 12:15:45,065 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-09-24 12:15:45,065 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.logic.LocaleDefiner  - Ï˚ ‚ ÎÓ„ËÍÂ
+2015-09-24 12:15:47,735 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-09-24 12:15:48,843 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-09-24 12:15:48,916 [http-bio-8080-exec-4] ERROR com.epam.libraryManager.controller.Controller  - 7
+2015-09-24 12:15:48,916 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.controller.Controller  - PROCREQ
+2015-09-24 12:15:48,916 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.controller.Controller  - whyyyyyyy?
+2015-09-24 12:15:57,789 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈

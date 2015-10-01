@@ -8,25 +8,16 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-
-import org.apache.log4j.Logger;
 
 import com.epam.libraryManager.command.CommandFactory;
-import com.epam.libraryManager.command.InterfaceCommand;
-import com.epam.libraryManager.resource.ConfigurationManager;
-import com.epam.libraryManager.resource.MessageManager;
+import com.epam.libraryManager.command.ICommand;
 
 /**
  * Servlet implementation class Controller
  */
 @WebServlet("/Controller")
 public class Controller extends HttpServlet {
-	 static {
-		 	System.out.println("hello kiti");
-		}
-	private static final long serialVersionUID = 1L;
-	private final static Logger LOG = Logger.getLogger(Controller.class);       
+	private static final long serialVersionUID = 1L;      
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -46,30 +37,15 @@ public class Controller extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		processRequest(request, response);
-		LOG.error("7");
-		LOG.debug("PROCREQ");
-		LOG.info("whyyyyyyy?");
 	}
 	
 	private void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 			String page = null;
-			//HttpSession session = request.getSession(true);
-			//LOG.info("whyyyyyyy?");
-			// определение команды, пришедшей из JSP
 			CommandFactory client = new CommandFactory();
-			System.out.println(request.getParameter("command"));
-			System.out.println(request.getParameter("language"));
-			InterfaceCommand command = client.defineCommand(request);
-			/*
-			* вызов реализованного метода execute() и передача параметров
-			* классу-обработчику конкретной команды
-			 */
+			ICommand command = client.defineCommand(request);
 			page = command.execute(request);
-			// метод возвращает страницу ответа
-			// page = null; // поэксперементировать!
-				RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(page);
-				// вызов страницы ответа на запрос
-				dispatcher.forward(request, response);
+			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(page);
+			dispatcher.forward(request, response);
 			
 	}
 

@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<link href="<c:url value="/css/style.css" />" rel="stylesheet" media="screen" type="text/css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="<c:url value="/js/validation.js"/>"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Добавить клиента</title>
+</head>
+<body>
+	<c:import url="/jspf/header.jsp" />
+    <div id="login-form">
+      <h1><fmt:message key="lables.header1" bundle="${resourceBundle}"/></h1>
+        <fieldset>
+            <form method="POST" action="${pageContext.servletContext.contextPath}/Controller">
+	            <input type="hidden" name="command" value="login" />
+	                <input type="text" required name="surname" placeholder="Фамилия"/>
+	                <input type="text" required name="name" placeholder="Имя"/>
+	                <input type="text" required name="second_name" placeholder="Отчество"/>
+	                <input type="date" required name="date_of_birth" placeholder="Дата рождения"/>
+	                <input type="text" required name="passport_series" placeholder="Серия"> 
+	                <input type="submit" value="Добавить">
+	                <br/>
+					${errorLoginPassMessage}
+				<br/>
+					${wrongAction}
+				<br/>
+            </form>
+        </fieldset>
+    </div> 
+	<c:import url="/jspf/footer.jsp" />
+</body>
+</html>

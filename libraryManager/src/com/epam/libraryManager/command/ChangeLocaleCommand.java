@@ -9,7 +9,7 @@ import com.epam.libraryManager.logic.LocaleDefiner;
 import com.epam.libraryManager.logic.LogicException;
 import com.epam.libraryManager.resource.ConfigurationManager;
 
-public class ChangeLocaleCommand implements InterfaceCommand {
+public class ChangeLocaleCommand implements ICommand {
 	private final static Logger LOG = Logger.getLogger(ChangeLocaleCommand.class);
 	private static ChangeLocaleCommand instance = new ChangeLocaleCommand();
 	
@@ -22,13 +22,11 @@ public class ChangeLocaleCommand implements InterfaceCommand {
 	@Override
 	public String execute(HttpServletRequest request) {
 		HttpSession session = request.getSession(true);
-		LOG.info("wtf!4!!");
 		try {
 			session.setAttribute("locale", LocaleDefiner.defineLocale(request.getParameter("language")));
 		} catch (LogicException ex) {
 			LOG.error(ex);
 		}
-		LOG.info("wtf!!!");
 		String jspPath = ConfigurationManager.getProperty("path.page.index");
 		return jspPath;
 	}

@@ -6,7 +6,7 @@ import org.apache.log4j.Logger;
 
 import com.epam.libraryManager.resource.ConfigurationManager;
 
-public class EmptyCommand implements InterfaceCommand {
+public class EmptyCommand implements ICommand {
 	private final static Logger LOG = Logger.getLogger(EmptyCommand.class);
 	@Override
 	public String execute(HttpServletRequest request) {

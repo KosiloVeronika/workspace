@@ -1,0 +1,21 @@
+package com.bsuir.adbLab1.command;
+
+import javax.servlet.http.HttpServletRequest;
+
+import com.epam.libraryManager.resource.ConfigurationManager;
+
+public class EmptyCommand implements ICommand {
+
+	public EmptyCommand() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String execute(HttpServletRequest request) {
+		/* в случае ошибки или прямого обращения к контроллеру
+		* переадресация на страницу ввода логина */
+		String page = ConfigurationManager.getProperty("path.page.login");
+		return page;
+	}
+
+}

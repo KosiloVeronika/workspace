@@ -18,15 +18,16 @@ public final class ConnectionPool {
     private final int connectionsCount;
     private static ReentrantLock lock = new ReentrantLock();
     private final BlockingQueue<Connection> connectionList;
+
     
     private final static String DRIVER_CLASS = "org.gjt.mm.mysql.Driver";
-    private final static String DB_PATH = "jdbc:mysql://localhost:3306/library_db";
+    private final static String DB_PATH = "jdbc:mysql://localhost:3306/test";
     private final static String LOGIN = "root";
     private final static String PASSWORD = "12345";
     
     private ConnectionPool() {
         try {
-            connectionsCount = 10;
+            connectionsCount = 30;
             connectionList = new ArrayBlockingQueue<>(connectionsCount);
             Class.forName(DRIVER_CLASS);
             
@@ -56,7 +57,7 @@ public final class ConnectionPool {
     }
     
     public Connection getConnection() throws ConnectionPoolException{
-        Connection connection = null;
+        Connection connection;
         try {
             connection = connectionList.take();
         } catch (InterruptedException ex) {

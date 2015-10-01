@@ -8,9 +8,9 @@ import com.epam.libraryManager.resource.MessageManager;
 
 public class CommandFactory {
 	private final static Logger LOG = Logger.getLogger(CommandFactory.class);	
-	public InterfaceCommand defineCommand(HttpServletRequest request) {
+	public ICommand defineCommand(HttpServletRequest request) {
 		LOG.info("МЫ В ФАБРИКЕ");
-		InterfaceCommand current = new EmptyCommand();
+		ICommand current = new EmptyCommand();
 			// извлечение имени команды из запроса
 		String action = request.getParameter("command");
 		if (action == null || action.isEmpty()) {
@@ -19,7 +19,7 @@ public class CommandFactory {
 		}
 			// получение объекта, соответствующего команде
 		try {
-			EnumCommand currentEnum = EnumCommand.valueOf(action.toUpperCase());
+			CommandEnum currentEnum = CommandEnum.valueOf(action.toUpperCase());
 			current = currentEnum.getCurrentCommand();
 		} catch (IllegalArgumentException e) {
 			request.setAttribute("wrongAction", action

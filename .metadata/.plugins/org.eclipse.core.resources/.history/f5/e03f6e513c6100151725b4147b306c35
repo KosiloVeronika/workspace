@@ -1,3 +1,0 @@
-$(document).keypress(function(e) {
-	console.log(document.getElementsById('input')[0]);
-})

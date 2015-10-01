@@ -5,8 +5,16 @@ public class Book {
 	private String bookName;
 	private String bookAuthor;
 	private int publishingDate;
-	private Genre genre;
+	private String genre;
 	
+	public String getGenre() {
+		return genre;
+	}
+
+	public void setGenre(String genre) {
+		this.genre = genre;
+	}
+
 	public String getBookID() {
 		return bookID;
 	}
@@ -37,14 +45,6 @@ public class Book {
 	
 	public void setPublishingDate(int publishingDate) {
 		this.publishingDate = publishingDate;
-	}
-	
-	public Genre getGenre() {
-		return genre;
-	}
-	
-	public void setGenre(Genre genre) {
-		this.genre = genre;
 	}
 
 }

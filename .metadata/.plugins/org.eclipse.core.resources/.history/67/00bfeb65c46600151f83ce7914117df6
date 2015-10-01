@@ -1,0 +1,73 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<link href="<c:url value="/css/style.css" />" rel="stylesheet" media="screen" type="text/css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="<c:url value="/js/validation.js"/>"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Добавить клиента</title>
+</head>
+<body>
+	<c:import url="/jspf/header.jsp" />
+    <div id="login-form">
+      <h1>Информация о клиенте</h1>
+        <fieldset>
+            <form method="POST" action="${pageContext.servletContext.contextPath}/Controller">
+	            <input type="hidden" name="command" value="add" />
+	            <table>
+	                <input type="text" required name="surname" placeholder="Фамилия"/>
+	                <input type="text" required name="name" placeholder="Имя"/>
+	                <input type="text" required name="second_name" placeholder="Отчество"/>
+	                <input type="date" required name="date_of_birth" placeholder="Дата рождения"/>
+	                <input type="text" required name="passport_series" placeholder="Серия паспорта">
+	                <input type="number" required name="passport_number" placeholder="Номер паспорта">
+	                <input type="text" required name="authority" placeholder="Кем выдан">
+	                <input type="date" required name="date_of_issue" placeholder="Дата выдачи">
+	                <input type="text" required name="birth_place" placeholder="Место рождения">
+	                
+	                
+	                <select name="city">
+	                	<option><option/>
+	                </select>
+	                <input type="text" required name="city" placeholder="Город(факт проживания)">
+	                <input type="text" required name="address" placeholder="Адрес">
+	                <input type="tel" name="home_telephone" pattern="2[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="Домашний телефон">	                
+	                <input type="tel" name="mobile_telephone" pattern="+375-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="+375-xx-xxx-xx-xx">
+	                <input type="mail" name="mail" placeholder="E-mail">
+	                <input type="text" required name="place_of_work" placeholder="Место работы">
+	                <input type="text" required name="w_position" placeholder="Должность">
+	                
+	                
+	                <input type="text" required name="registration_address" placeholder="Адрес прописки">
+	                <select name="marital_status">
+	                	<option><option/>
+	                </select>
+	                <input type="text" required name="marital_status" placeholder="Семейное положение">
+	                <select name="citizenship">
+	                	<option><option/>
+	                </select>
+	                <input type="text" required name="citizenship" placeholder="Гражданство">
+	                <select name="disability">
+	                	<option><option/>
+	                </select>
+	                <input type="text" required name="disability" placeholder="Инвалидность">
+
+	                <input type="text" required name="monthly_income" placeholder="Ежемесячный доход">
+	                
+	                </table>
+	                <input type="submit" value="Добавить">
+	                <br/>
+					${errorLoginPassMessage}
+				<br/>
+					${wrongAction}
+				<br/>
+            </form>
+        </fieldset>
+    </div> 
+	<c:import url="/jspf/footer.jsp" />
+</body>
+</html>

@@ -9,7 +9,7 @@ import com.epam.libraryManager.logic.RegistrationLogic;
 import com.epam.libraryManager.resource.ConfigurationManager;
 import com.epam.libraryManager.resource.MessageManager;
 
-public class RegistrationCommand implements InterfaceCommand {
+public class RegistrationCommand implements ICommand {
 
 	private final static Logger LOG = Logger.getLogger(LoginCommand.class);
 	private static final String PARAM_NAME_LOGIN = "username";

@@ -19,7 +19,6 @@
 <fullyQualifiedTypeName name="com.epam.hotelManager.entity.Hotel"/>
 <fullyQualifiedTypeName name="com.epam.hotelManager.connectionpool.ConnectionPool"/>
 <fullyQualifiedTypeName name="com.epam.hotelManager.entity.Room"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="com.epam.hotelManager.connectionpool.ConnectionPoolException"/>
 <fullyQualifiedTypeName name="com.epam.hotelManager.entity.RoomType"/>
@@ -38,4 +37,5 @@
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="com.epam.libraryManager.logic.LocaleDefiner"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

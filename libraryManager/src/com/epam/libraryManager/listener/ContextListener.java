@@ -1,8 +1,5 @@
 package com.epam.libraryManager.listener;
 
-import java.sql.Connection;
-
-import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
@@ -25,10 +22,7 @@ public class ContextListener implements ServletContextListener {
     public void contextInitialized(ServletContextEvent event)  { 
     	String absPath = event.getServletContext().getRealPath("/")+"WEB-INF\\log4j.xml";
     			new DOMConfigurator().doConfigure(absPath,LogManager.getLoggerRepository());
-    			System.out.println("absPath"+absPath);
-    	//String mailFeedback = context.getInitParameter("feedback");
-    	//context.log("Context Initialized with parameter: " + mailFeedback);
-    	//System.out.println("Context Initialized with parameter: " + mailFeedback);
+    			//System.out.println("absPath"+absPath);
     }
 	
 }

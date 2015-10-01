@@ -1,0 +1,9 @@
+package com.bsuir.adbLab1.connectionpool;
+
+public class ConnectionPool {
+
+	public ConnectionPool() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

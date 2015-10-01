@@ -9,3 +9,11 @@
 1443023276080	Delete element
 1443023302121	Move file
 1443024097051	Move 'en_locale.jspf' to 'jspf'
+1443080919549	Delete element
+1443080926660	Delete element
+1443085704104	Delete element
+1443086429020	Delete element
+1443280539005	Rename type 'EnumCommand'
+1443280563304	Rename type 'InterfaceCommand'
+1443280620000	Rename package 'com.epam.libraryManager.hash'
+1443280640576	Rename type 'Hash'
