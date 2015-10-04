@@ -37,5 +37,12 @@
 <fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="com.epam.libraryManager.logic.LocaleDefiner"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="com.epam.libraryManager.entity.Section"/>
+<fullyQualifiedTypeName name="com.epam.libraryManager.entity.Author"/>
+<fullyQualifiedTypeName name="com.epam.libraryManager.dao.AuthorDAO"/>
+<fullyQualifiedTypeName name="com.epam.libraryManager.dao.SectionDAO"/>
+<fullyQualifiedTypeName name="com.epam.libraryManager.logic.ShowAllBooksLogic"/>
+<fullyQualifiedTypeName name="com.epam.libraryManager.dao.BookDAO"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.epam.libraryManager.entity.Book"/>
 </qualifiedTypeNameHistroy>

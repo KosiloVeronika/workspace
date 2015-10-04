@@ -1,0 +1,86 @@
+package com.epam.libraryManager.dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+import com.epam.libraryManager.connectionpool.ConnectionPool;
+import com.epam.libraryManager.connectionpool.ConnectionPoolException;
+import com.epam.libraryManager.entity.Author;
+import com.epam.libraryManager.entity.Book;
+import com.epam.libraryManager.entity.Section;
+import com.epam.libraryManager.entity.User;
+
+public class AuthorDAO implements DataAccessDao {
+
+	private final String GET_BOOK_BY_USER_ID = "SELECT * FROM `sn` WHERE id = '%d' ";
+	private final String GET_ALL_BOOKS = "SELECT * FROM `book`";
+
+	public ArrayList<Author> getAllSections() throws DaoException{
+		ArrayList<Author> books = new ArrayList<Author>();
+		Author author = null;
+		Connection connection = null;
+		Statement statement;
+		ResultSet resultSet;
+        ConnectionPool pool = ConnectionPool.getInstance();
+        try {
+            connection = pool.getConnection();
+            statement = connection.createStatement();
+            resultSet = statement.executeQuery(GET_ALL_BOOKS);
+            while (resultSet.next()) {
+            	author.setId(resultSet.getInt("id_book"));//просил здесь SuppressWarnings("null")
+            	author.setName(resultSet.getString("name"));
+            	author.setSecondName(resultSet.getString("second_name"));
+            	author.setSurname(resultSet.getString("thurname"));
+            	//book.setBookAuthor(bookAuthor);
+                books.add(author);
+            }
+            return books;
+
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+        	pool.freeConnection(connection);
+        }
+	}
+	
+	public Section getSectionById(int id) throws DaoException {
+		Section section = null;
+		Connection connection = null;
+		Statement statement;
+		ResultSet resultSet;
+        ConnectionPool pool = ConnectionPool.getInstance();
+        try {
+        	String query = String.format(GET_BOOK_BY_USER_ID , id);
+            connection = pool.getConnection();
+            statement = connection.createStatement();
+            resultSet = statement.executeQuery(query);
+
+            while (resultSet.next()) {
+                section = new Section(resultSet.getInt("id"), 
+                		resultSet.getString("name"));
+            }
+            return section;
+
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+        	pool.freeConnection(connection);
+        }
+	}
+
+	@Override
+	public User getUserFromSource(String username, String password) throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean checkUser(String mail, String username, String password) throws DaoException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

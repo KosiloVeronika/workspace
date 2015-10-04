@@ -9,6 +9,7 @@ import com.epam.libraryManager.entity.User;
 
 public class LoginLogic {
 	private final static Logger LOG = Logger.getLogger(LoginLogic.class);
+	
 	public static boolean checkLogin(String enterLogin, String enterPass) throws LogicException {
 		DataAccessDao dataaccess = new DatabaseDao();
 		try {

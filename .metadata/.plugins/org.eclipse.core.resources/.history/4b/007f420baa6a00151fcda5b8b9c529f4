@@ -1,0 +1,53 @@
+package com.epam.libraryManager.dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import com.epam.libraryManager.connectionpool.ConnectionPool;
+import com.epam.libraryManager.connectionpool.ConnectionPoolException;
+import com.epam.libraryManager.entity.Section;
+import com.epam.libraryManager.entity.User;
+
+public class SectionDAO implements DataAccessDao {
+	private final String GET_SECTION_BY_ID = "SELECT * FROM `section` WHERE id = '%d' ";
+	public SectionDAO() {
+	}
+	public Section getSectionById(int id) throws DaoException {
+		Section section = null;
+		Connection connection = null;
+		Statement statement;
+		ResultSet resultSet;
+        ConnectionPool pool = ConnectionPool.getInstance();
+        try {
+        	String query = String.format(GET_SECTION_BY_ID , id);
+            connection = pool.getConnection();
+            statement = connection.createStatement();
+            resultSet = statement.executeQuery(query);
+
+            while (resultSet.next()) {
+                section = new Section(resultSet.getInt("admin"), 
+                		resultSet.getString("name"));
+            }
+            return section;
+
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+        	pool.freeConnection(connection);
+        }
+	}
+	@Override
+	public User getUserFromSource(String username, String password) throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean checkUser(String mail, String username, String password) throws DaoException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

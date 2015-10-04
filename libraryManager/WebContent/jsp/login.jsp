@@ -32,8 +32,6 @@
             </form>
         </fieldset>
     </div> 
-	hello web-app!
-
 	<a href="jsp/login.jsp">LogIn</a>
 	
 	<a href="jsp/registration.jsp">Register</a>

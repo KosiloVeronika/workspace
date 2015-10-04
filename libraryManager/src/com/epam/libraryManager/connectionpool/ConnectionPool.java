@@ -21,7 +21,7 @@ public final class ConnectionPool {
 
     
     private final static String DRIVER_CLASS = "org.gjt.mm.mysql.Driver";
-    private final static String DB_PATH = "jdbc:mysql://localhost:3306/test";
+    private final static String DB_PATH = "jdbc:mysql://localhost:3306/library_db";
     private final static String LOGIN = "root";
     private final static String PASSWORD = "12345";
     

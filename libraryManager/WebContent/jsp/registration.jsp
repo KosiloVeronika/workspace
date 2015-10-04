@@ -16,7 +16,7 @@
 </head>
 <body>
     <c:import url="/jspf/header.jsp" />
-    </div>
+
 	<div id="login-form">
 		<h1><fmt:message key="lables.registration" bundle="${resourceBundle}"/></h1>
 			<fieldset>

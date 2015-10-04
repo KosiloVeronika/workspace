@@ -1,0 +1,8 @@
+1443954403714	Move 'my_books.jsp' to 'jsp'
+1443954406897	Move 'all_books.jsp' to 'jsp'
+1443954429581	Move 'all_books.jsp' to 'user'
+1443954435364	Move 'my_books.jsp' to 'error'
+1443954440245	Move 'my_books.jsp' to 'user'
+1443976157260	Rename local variable 'book'
+1443976368718	Rename local variable 'section'
+1443983037230	Rename local variable 'books'

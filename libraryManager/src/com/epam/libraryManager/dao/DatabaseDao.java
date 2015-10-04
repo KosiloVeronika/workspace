@@ -13,9 +13,9 @@ import com.epam.libraryManager.hashPassword.HashPassword;
 
 public class DatabaseDao implements DataAccessDao {
 	private HashPassword hash = new HashPassword();
-	private final String CHECK_USER_BY_USERNAME = "SELECT * FROM `user` WHERE username = '%s' ";
-	private final String CHECK_USER_BY_MAIL = "SELECT * FROM `user` WHERE mail = '%s' ";
-	private final String REGISTRATION_QUERY = "INSERT INTO user(mail, password, salt, admin, username) VALUES(?,?,?,?,?)";
+	private final String CHECK_USER_BY_USERNAME = "SELECT * FROM `user` WHERE login = '%s' ";
+	private final String CHECK_USER_BY_MAIL = "SELECT * FROM `user` WHERE `user`.`e-mail` = '%s' ";
+	private final String REGISTRATION_QUERY = "INSERT INTO user(`login`,`password` ,`id_user_type_fk`, `salt`, `e-mail`) VALUES(?,?,?,?,?)";
    
 	@Override
 	public User getUserFromSource(String username, String password) throws DaoException {
@@ -36,9 +36,9 @@ public class DatabaseDao implements DataAccessDao {
                 if(hash.hashPasswordWithSalt(password, salt).equals(hashPassword)) {
                 	System.out.println("WTF");
                 	user = new User();
-                	user.setUsername(resultSet.getString("username"));
-                    user.setIsAdmin(resultSet.getInt("admin"));
-                }
+                	user.setUsername(resultSet.getString("login"));System.out.println("WTF");
+                    user.setUsertype(resultSet.getInt("id_user_type_fk"));
+                }System.out.println("WTF");
                 System.out.println(user.toString());
             }
             return user;
@@ -70,12 +70,18 @@ public class DatabaseDao implements DataAccessDao {
             	salt = hash.makeSalt();
             	hashPasswrd = hash.hashPasswordWithSalt(password, salt);
             	System.out.println(hashPasswrd);
-            	ps.setString(1, mail);
+            	ps.setString(1, username);
+            	System.out.println("юзернейм норм");
             	ps.setString(2, hashPasswrd);
-            	ps.setString(3, new String(salt));
-            	ps.setInt(4, 0);
-            	ps.setString(5, username);
+            	System.out.println("хэш норм");
+            	ps.setInt(3, 0);
+            	System.out.println("админ норм");
+            	ps.setString(4, new String(salt));
+            	System.out.println("соль норм");
+            	ps.setString(5, mail);
+            	System.out.println("мыло норм");
             	ps.executeUpdate();
+            	System.out.println("финиш");
             	return true;
             } 
             return false;

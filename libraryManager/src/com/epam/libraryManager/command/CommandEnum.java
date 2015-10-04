@@ -6,6 +6,11 @@ public enum CommandEnum {
 			this.command = new LoginCommand();
 		}
 	},
+	SHOW_ALL_BOOKS {
+		{
+			this.command = new ShowAllBooksCommand();
+		}
+	},
 	LOCALE {
 		{
 			this.command = new ChangeLocaleCommand();

@@ -1,0 +1,11 @@
+2015-09-26 18:03:43,660 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - ÌÛ Â ÔÀÁĞÈÊÅ
+2015-09-26 18:09:09,845 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - ÌÛ Â ÔÀÁĞÈÊÅ
+2015-09-26 18:09:38,546 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - ÌÛ Â ÔÀÁĞÈÊÅ
+2015-09-26 18:09:54,157 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - ÌÛ Â ÔÀÁĞÈÊÅ
+2015-09-26 18:09:54,159 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.logic.LocaleDefiner  - ìû â ëîãèêå
+2015-09-26 18:09:55,936 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - ÌÛ Â ÔÀÁĞÈÊÅ
+2015-09-26 18:09:55,937 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.logic.LocaleDefiner  - ìû â ëîãèêå
+2015-09-26 18:09:59,305 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - ÌÛ Â ÔÀÁĞÈÊÅ
+2015-09-26 18:09:59,305 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.logic.LocaleDefiner  - ìû â ëîãèêå
+2015-09-26 18:11:07,782 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - ÌÛ Â ÔÀÁĞÈÊÅ
+2015-09-26 18:11:07,827 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged

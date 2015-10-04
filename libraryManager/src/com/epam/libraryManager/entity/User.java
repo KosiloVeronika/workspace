@@ -3,7 +3,8 @@ package com.epam.libraryManager.entity;
 public class User {
 	private String userID;
 	private String username;
-	private int admin;
+	private String email;
+	private int usertype;
 	
 	public String getUserID() {
 		return userID;
@@ -13,14 +14,6 @@ public class User {
 		this.userID = userID;
 	}
 
-	public int getAdmin() {
-		return admin;
-	}
-
-	public void setAdmin(int admin) {
-		this.admin = admin;
-	}
-
 	public String getUsername() {
 		return username;
 	}
@@ -28,17 +21,26 @@ public class User {
 	public void setUsername(String username) {
 		this.username = username;
 	}	
-
-	public int getIsAdmin() {
-		return admin;
+	
+	public int getUsertype() {
+		return usertype;
 	}
 
-	public void setIsAdmin(int admin) {
-		this.admin = admin;
+	public void setUsertype(int i) {
+		this.usertype = i;
 	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 	@Override
 	public String toString() {
-		return String.format("UserName: %s Password: %d", getUsername(), getIsAdmin());
+		return String.format("UserName: %s Password: %s", getUsername(), getUsertype());
 		
 	}
 }

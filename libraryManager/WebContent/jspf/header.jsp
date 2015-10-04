@@ -20,18 +20,20 @@
 		    	<ctg:locale-switch/>
 		    </c:when>
 	    </c:choose>
-	        <span class="right">
 	        <c:choose>
 	        	<c:when test="${user == null}">
+	        	
+	            <span class="right">
 					<a href="<c:url value="/jsp/registration.jsp"/>">
 	                	<strong><fmt:message key="lables.registration" bundle="${resourceBundle }"/></strong>
 	            	</a>
+	            	
+	            </span>
 				</c:when>
 				<c:otherwise>
 					<i:import url="/jspf/hello_user.jsp" />
 				</c:otherwise>
 	        </c:choose>
-	        </span>
 	    <div class="clr"></div>
 	    </div>
 	</header>
