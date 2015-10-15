@@ -1,0 +1,9 @@
+package com.bsuir.adbLab1.command;
+
+public class DeleteCommand {
+
+	public DeleteCommand() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

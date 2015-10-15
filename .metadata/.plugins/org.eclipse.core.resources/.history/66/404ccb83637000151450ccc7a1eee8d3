@@ -1,0 +1,12 @@
+package com.bsuir.adbLab1.logic;
+
+public class ShowLogic {
+
+	public ShowLogic() {
+		
+	}
+	
+	public static void Show() {
+		
+	}
+}

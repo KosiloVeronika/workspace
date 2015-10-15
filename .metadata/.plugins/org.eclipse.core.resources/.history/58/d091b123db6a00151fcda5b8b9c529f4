@@ -1,9 +1,0 @@
-package com.epam.libraryManager.logic;
-
-public class ShowAllBooksLogic {
-
-	public ShowAllBooksLogic() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

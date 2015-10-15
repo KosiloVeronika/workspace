@@ -13,6 +13,7 @@ public class CommandFactory {
 		ICommand current = new EmptyCommand();
 			// извлечение имени команды из запроса
 		String action = request.getParameter("command");
+		LOG.info(action);
 		if (action == null || action.isEmpty()) {
 			// если команда не задана в текущем запросе
 			return current;
@@ -23,7 +24,7 @@ public class CommandFactory {
 			current = currentEnum.getCurrentCommand();
 		} catch (IllegalArgumentException e) {
 			request.setAttribute("wrongAction", action
-			+ MessageManager.getProperty("message.wrongaction"));
+			+ MessageManager.getProperty("message.wrongaction") + e.getMessage());
 		}
 			return current;
 		}

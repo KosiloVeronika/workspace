@@ -1,0 +1,963 @@
+2015-10-04 11:58:26,524 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 11:58:32,810 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 11:58:40,267 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 11:58:40,354 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-04 12:46:09,842 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 12:46:10,548 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-04 12:48:34,961 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 12:48:35,008 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-04 12:51:04,045 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 12:51:04,478 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-04 12:51:52,412 [http-bio-8080-exec-11] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 12:51:52,453 [http-bio-8080-exec-11] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-04 12:53:31,392 [http-bio-8080-exec-14] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 12:53:31,433 [http-bio-8080-exec-14] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-04 12:56:40,342 [http-bio-8080-exec-13] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 12:56:42,907 [http-bio-8080-exec-13] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 12:56:42,909 [http-bio-8080-exec-13] INFO  com.epam.libraryManager.logic.LocaleDefiner  - Ï˚ ‚ ÎÓ„ËÍÂ
+2015-10-04 12:56:44,832 [http-bio-8080-exec-13] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 12:56:44,873 [http-bio-8080-exec-13] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-04 12:57:27,771 [http-bio-8080-exec-19] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 12:57:28,950 [http-bio-8080-exec-19] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 12:57:28,994 [http-bio-8080-exec-19] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-04 12:57:32,143 [http-bio-8080-exec-19] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 12:57:34,935 [http-bio-8080-exec-11] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 12:57:34,936 [http-bio-8080-exec-11] INFO  com.epam.libraryManager.logic.LocaleDefiner  - Ï˚ ‚ ÎÓ„ËÍÂ
+2015-10-04 12:57:36,472 [http-bio-8080-exec-11] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 12:57:36,511 [http-bio-8080-exec-11] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-04 13:28:23,198 [http-bio-8080-exec-14] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 13:28:23,241 [http-bio-8080-exec-14] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-04 13:28:29,370 [http-bio-8080-exec-14] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 13:28:29,370 [http-bio-8080-exec-14] INFO  com.epam.libraryManager.logic.LocaleDefiner  - Ï˚ ‚ ÎÓ„ËÍÂ
+2015-10-04 13:28:30,943 [http-bio-8080-exec-14] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 13:28:30,982 [http-bio-8080-exec-14] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-04 13:29:55,092 [http-bio-8080-exec-12] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 13:29:55,134 [http-bio-8080-exec-12] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-04 13:30:38,198 [http-bio-8080-exec-13] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 13:30:38,238 [http-bio-8080-exec-13] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-04 13:32:09,158 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 13:32:11,629 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 13:32:12,420 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-04 19:16:24,537 [http-bio-8080-exec-16] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-04 19:16:25,037 [http-bio-8080-exec-16] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 00:26:52,279 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 00:26:53,151 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 00:26:55,929 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 00:26:55,938 [http-bio-8080-exec-6] ERROR com.epam.libraryManager.logic.LoginLogic  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:24)
+	at com.epam.libraryManager.command.ShowAllBooksCommand.execute(ShowAllBooksCommand.java:19)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doGet(Controller.java:32)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'test.book' doesn't exist
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:46)
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:18)
+	... 25 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'test.book' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2537)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2466)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:31)
+	... 26 more
+2015-10-05 00:29:39,214 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 00:29:40,083 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 00:29:43,270 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 00:29:43,279 [http-bio-8080-exec-7] ERROR com.epam.libraryManager.logic.LoginLogic  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:24)
+	at com.epam.libraryManager.command.ShowAllBooksCommand.execute(ShowAllBooksCommand.java:19)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doGet(Controller.java:32)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'test.book' doesn't exist
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:47)
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:18)
+	... 25 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'test.book' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1031)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2537)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2466)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1383)
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:31)
+	... 26 more
+2015-10-05 00:37:57,940 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 00:39:44,932 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 00:40:31,974 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 00:46:38,833 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 00:50:58,190 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 00:52:20,202 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 00:53:43,255 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:01:26,443 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:01:42,119 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:05:24,463 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:10:16,123 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:11:51,326 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:11:55,804 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:13:51,616 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:16:46,126 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:17:03,986 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:19:03,740 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:19:21,489 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:19:33,567 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:19:53,007 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:19:57,315 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:19:57,360 [http-bio-8080-exec-2] ERROR com.epam.libraryManager.command.LoginCommand  - LOGIN ERROR
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.LoginLogic.checkLogin(LoginLogic.java:21)
+	at com.epam.libraryManager.command.LoginCommand.execute(LoginCommand.java:25)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id_user_type' not found.
+	at com.epam.libraryManager.dao.DatabaseDao.getUserFromSource(DatabaseDao.java:47)
+	at com.epam.libraryManager.logic.LoginLogic.checkLogin(LoginLogic.java:15)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id_user_type' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getString(ResultSetImpl.java:5474)
+	at com.epam.libraryManager.dao.DatabaseDao.getUserFromSource(DatabaseDao.java:40)
+	... 26 more
+2015-10-05 01:20:05,149 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:20:05,191 [http-bio-8080-exec-9] ERROR com.epam.libraryManager.command.LoginCommand  - LOGIN ERROR
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.LoginLogic.checkLogin(LoginLogic.java:21)
+	at com.epam.libraryManager.command.LoginCommand.execute(LoginCommand.java:25)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id_user_type' not found.
+	at com.epam.libraryManager.dao.DatabaseDao.getUserFromSource(DatabaseDao.java:47)
+	at com.epam.libraryManager.logic.LoginLogic.checkLogin(LoginLogic.java:15)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id_user_type' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getString(ResultSetImpl.java:5474)
+	at com.epam.libraryManager.dao.DatabaseDao.getUserFromSource(DatabaseDao.java:40)
+	... 26 more
+2015-10-05 01:20:09,209 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:20:13,980 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:21:16,160 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:21:16,893 [http-bio-8080-exec-3] ERROR com.epam.libraryManager.command.LoginCommand  - LOGIN ERROR
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.LoginLogic.checkLogin(LoginLogic.java:21)
+	at com.epam.libraryManager.command.LoginCommand.execute(LoginCommand.java:25)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id_user_type' not found.
+	at com.epam.libraryManager.dao.DatabaseDao.getUserFromSource(DatabaseDao.java:47)
+	at com.epam.libraryManager.logic.LoginLogic.checkLogin(LoginLogic.java:15)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id_user_type' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getString(ResultSetImpl.java:5474)
+	at com.epam.libraryManager.dao.DatabaseDao.getUserFromSource(DatabaseDao.java:40)
+	... 26 more
+2015-10-05 01:26:55,437 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:26:56,132 [http-bio-8080-exec-3] ERROR com.epam.libraryManager.command.LoginCommand  - LOGIN ERROR
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.LoginLogic.checkLogin(LoginLogic.java:22)
+	at com.epam.libraryManager.command.LoginCommand.execute(LoginCommand.java:25)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id_user_type' not found.
+	at com.epam.libraryManager.dao.DatabaseDao.getUserFromSource(DatabaseDao.java:47)
+	at com.epam.libraryManager.logic.LoginLogic.checkLogin(LoginLogic.java:16)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id_user_type' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getString(ResultSetImpl.java:5474)
+	at com.epam.libraryManager.dao.DatabaseDao.getUserFromSource(DatabaseDao.java:40)
+	... 26 more
+2015-10-05 01:27:56,954 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:27:57,665 [http-bio-8080-exec-1] ERROR com.epam.libraryManager.command.LoginCommand  - LOGIN ERROR
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.LoginLogic.checkLogin(LoginLogic.java:22)
+	at com.epam.libraryManager.command.LoginCommand.execute(LoginCommand.java:25)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id_user_type' not found.
+	at com.epam.libraryManager.dao.DatabaseDao.getUserFromSource(DatabaseDao.java:47)
+	at com.epam.libraryManager.logic.LoginLogic.checkLogin(LoginLogic.java:16)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id_user_type' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getString(ResultSetImpl.java:5474)
+	at com.epam.libraryManager.dao.DatabaseDao.getUserFromSource(DatabaseDao.java:40)
+	... 26 more
+2015-10-05 01:29:34,135 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:29:34,785 [http-bio-8080-exec-3] ERROR com.epam.libraryManager.command.LoginCommand  - LOGIN ERROR
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.LoginLogic.checkLogin(LoginLogic.java:22)
+	at com.epam.libraryManager.command.LoginCommand.execute(LoginCommand.java:25)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id_user_type' not found.
+	at com.epam.libraryManager.dao.DatabaseDao.getUserFromSource(DatabaseDao.java:47)
+	at com.epam.libraryManager.logic.LoginLogic.checkLogin(LoginLogic.java:16)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id_user_type' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2719)
+	at com.epam.libraryManager.dao.DatabaseDao.getUserFromSource(DatabaseDao.java:40)
+	... 26 more
+2015-10-05 01:30:33,649 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:30:34,317 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 01:30:38,595 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:32:59,187 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:35:44,758 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:35:45,217 [http-bio-8080-exec-3] ERROR com.epam.libraryManager.logic.LoginLogic  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:25)
+	at com.epam.libraryManager.command.ShowAllBooksCommand.execute(ShowAllBooksCommand.java:19)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doGet(Controller.java:32)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id_author' not found.
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:57)
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:19)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id_author' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2719)
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:40)
+	... 26 more
+2015-10-05 01:37:45,679 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:37:46,127 [http-bio-8080-exec-2] ERROR com.epam.libraryManager.logic.LoginLogic  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:25)
+	at com.epam.libraryManager.command.ShowAllBooksCommand.execute(ShowAllBooksCommand.java:19)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doGet(Controller.java:32)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id_author' not found.
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:57)
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:19)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id_author' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2719)
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:40)
+	... 26 more
+2015-10-05 01:40:35,974 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:40:36,400 [http-bio-8080-exec-3] ERROR com.epam.libraryManager.logic.LoginLogic  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:25)
+	at com.epam.libraryManager.command.ShowAllBooksCommand.execute(ShowAllBooksCommand.java:19)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doGet(Controller.java:32)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id_author' not found.
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:57)
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:19)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id_author' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2719)
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:40)
+	... 26 more
+2015-10-05 01:41:51,302 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:41:51,763 [http-bio-8080-exec-1] ERROR com.epam.libraryManager.logic.LoginLogic  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:25)
+	at com.epam.libraryManager.command.ShowAllBooksCommand.execute(ShowAllBooksCommand.java:19)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doGet(Controller.java:32)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id_author' not found.
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:57)
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:19)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id_author' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2719)
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:40)
+	... 26 more
+2015-10-05 01:42:31,387 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:42:31,906 [http-bio-8080-exec-2] ERROR com.epam.libraryManager.logic.LoginLogic  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:25)
+	at com.epam.libraryManager.command.ShowAllBooksCommand.execute(ShowAllBooksCommand.java:19)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doGet(Controller.java:32)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id_author' not found.
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:57)
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:19)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id_author' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2719)
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:40)
+	... 26 more
+2015-10-05 01:43:25,905 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:43:26,395 [http-bio-8080-exec-1] ERROR com.epam.libraryManager.logic.LoginLogic  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:25)
+	at com.epam.libraryManager.command.ShowAllBooksCommand.execute(ShowAllBooksCommand.java:19)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doGet(Controller.java:32)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id_author' not found.
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:57)
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:19)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id_author' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2719)
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:40)
+	... 26 more
+2015-10-05 01:44:17,979 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:44:18,571 [http-bio-8080-exec-1] ERROR com.epam.libraryManager.logic.LoginLogic  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:25)
+	at com.epam.libraryManager.command.ShowAllBooksCommand.execute(ShowAllBooksCommand.java:19)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doGet(Controller.java:32)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id' not found.
+	at com.epam.libraryManager.dao.SectionDAO.getSectionById(SectionDAO.java:60)
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:47)
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:19)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2719)
+	at com.epam.libraryManager.dao.SectionDAO.getSectionById(SectionDAO.java:54)
+	... 27 more
+2015-10-05 01:47:11,947 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:47:12,527 [http-bio-8080-exec-1] ERROR com.epam.libraryManager.logic.LoginLogic  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:25)
+	at com.epam.libraryManager.command.ShowAllBooksCommand.execute(ShowAllBooksCommand.java:19)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doGet(Controller.java:32)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id' not found.
+	at com.epam.libraryManager.dao.SectionDAO.getSectionById(SectionDAO.java:60)
+	at com.epam.libraryManager.dao.BookDAO.getAllBooks(BookDAO.java:47)
+	at com.epam.libraryManager.logic.ShowAllBooksLogic.getAllBooks(ShowAllBooksLogic.java:19)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2719)
+	at com.epam.libraryManager.dao.SectionDAO.getSectionById(SectionDAO.java:54)
+	... 27 more
+2015-10-05 01:48:59,484 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:48:59,933 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 01:50:42,264 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:50:42,275 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 01:53:12,396 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:53:33,402 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:53:33,846 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 01:56:06,341 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:56:06,801 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 01:58:08,143 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 01:58:08,590 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 15:48:59,098 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:48:59,659 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 15:49:18,885 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:49:22,635 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:49:22,676 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 15:49:25,964 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:49:25,969 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 15:50:51,287 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:50:51,295 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 15:53:27,942 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:53:27,948 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 15:53:31,892 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:53:31,895 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.logic.LocaleDefiner  - Ï˚ ‚ ÎÓ„ËÍÂ
+2015-10-05 15:53:34,012 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:53:34,012 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.logic.LocaleDefiner  - Ï˚ ‚ ÎÓ„ËÍÂ
+2015-10-05 15:53:35,152 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:53:35,152 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.logic.LocaleDefiner  - Ï˚ ‚ ÎÓ„ËÍÂ
+2015-10-05 15:53:36,139 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:53:36,139 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.logic.LocaleDefiner  - Ï˚ ‚ ÎÓ„ËÍÂ
+2015-10-05 15:53:38,383 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:53:38,423 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 15:53:41,244 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:53:41,249 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 15:54:12,540 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:54:17,191 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:54:17,908 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 15:54:20,364 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:54:20,379 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 15:56:13,180 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:56:14,049 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 15:56:15,619 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:56:15,634 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 15:57:48,645 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:57:48,693 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 15:57:52,756 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 15:57:52,766 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:07:31,607 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:07:32,371 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 16:07:34,168 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:07:34,185 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:20:45,066 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:20:45,875 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 16:20:52,924 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:20:52,938 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:23:02,270 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:23:02,279 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:23:03,984 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:23:03,997 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:23:18,560 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:23:18,564 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:23:22,127 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:23:22,134 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:25:31,088 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:25:31,095 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:25:41,438 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:25:41,456 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:25:43,840 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:25:43,853 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:26:26,039 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:26:26,044 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:26:28,334 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:26:28,349 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:26:42,857 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:26:42,860 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:29:01,311 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:29:01,315 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:29:29,594 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:29:29,599 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:29:39,926 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:29:39,930 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:29:42,063 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:29:42,080 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:29:55,852 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:29:55,856 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:31:43,200 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:31:43,214 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:46:47,668 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:46:48,127 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:47:05,609 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:47:07,076 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:47:07,077 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.logic.LocaleDefiner  - Ï˚ ‚ ÎÓ„ËÍÂ
+2015-10-05 16:47:08,372 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:47:08,610 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 16:47:10,659 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:47:10,672 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 16:48:25,900 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:48:31,470 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:48:39,389 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:48:39,429 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 16:48:50,096 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:48:56,279 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:49:01,710 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:49:05,161 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:49:05,201 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 16:49:06,928 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:49:10,772 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:49:10,812 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 16:49:12,873 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:57:13,231 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 16:57:13,913 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 17:03:31,271 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 17:03:31,718 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 17:31:54,873 [http-bio-8080-exec-22] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 17:31:57,525 [http-bio-8080-exec-25] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 17:31:57,527 [http-bio-8080-exec-25] INFO  com.epam.libraryManager.logic.LocaleDefiner  - Ï˚ ‚ ÎÓ„ËÍÂ
+2015-10-05 17:31:58,487 [http-bio-8080-exec-26] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 17:31:59,099 [http-bio-8080-exec-26] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 17:32:00,875 [http-bio-8080-exec-26] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 17:32:00,887 [http-bio-8080-exec-26] DEBUG com.epam.libraryManager.logic.LoginLogic  - WE SHOW YOU BOOKS
+2015-10-05 23:17:05,541 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:17:06,651 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:17:07,444 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 23:17:09,272 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:17:09,288 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-05 23:23:39,228 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:23:40,362 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:23:41,148 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 23:23:43,323 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:23:43,338 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-05 23:23:54,087 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:23:55,745 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:23:55,747 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.logic.LocaleDefiner  - Ï˚ ‚ ÎÓ„ËÍÂ
+2015-10-05 23:23:56,684 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:23:56,728 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 23:23:58,073 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:23:58,080 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-05 23:24:02,734 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:32:38,887 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:32:38,890 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-05 23:33:49,897 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:33:49,903 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-05 23:35:56,020 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:35:56,023 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-05 23:35:56,830 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-05 23:35:56,830 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 23:37:52,921 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:37:52,925 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-05 23:37:53,762 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-05 23:37:53,762 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 23:38:07,022 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:38:07,023 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-05 23:38:07,067 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-05 23:38:07,067 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 23:38:09,277 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:38:09,277 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-05 23:38:10,790 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:38:10,790 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-05 23:38:10,831 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-05 23:38:10,832 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 23:38:14,619 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:38:14,620 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-05 23:38:14,637 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-05 23:38:21,150 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:38:21,151 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-05 23:39:17,925 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:39:17,930 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-05 23:39:20,482 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:39:20,482 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-05 23:39:21,218 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-05 23:39:21,218 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 23:39:24,334 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:39:24,334 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-05 23:39:24,349 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-05 23:39:27,296 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:39:27,297 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-05 23:39:27,297 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.OrderCommand  - 
+2015-10-05 23:41:07,938 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:41:07,941 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-05 23:41:09,302 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:41:09,303 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-05 23:41:10,050 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-05 23:41:10,051 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 23:41:11,892 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:41:11,892 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-05 23:41:11,907 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-05 23:41:13,940 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:41:13,940 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-05 23:41:13,940 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-05 23:54:19,259 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:54:19,263 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - 
+2015-10-05 23:54:21,136 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:54:21,137 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-05 23:54:26,331 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:54:26,332 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-05 23:54:27,064 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-05 23:54:27,065 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 23:54:28,572 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:54:28,573 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-05 23:54:28,587 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-05 23:54:33,712 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:54:33,712 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-05 23:54:33,712 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-05 23:54:33,713 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.OrderCommand  - 
+2015-10-05 23:59:48,371 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:59:48,374 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-05 23:59:49,861 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:59:49,862 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-05 23:59:50,606 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-05 23:59:50,606 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-05 23:59:52,240 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-05 23:59:52,240 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-05 23:59:52,253 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS

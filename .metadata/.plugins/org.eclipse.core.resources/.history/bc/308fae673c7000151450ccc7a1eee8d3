@@ -1,0 +1,92 @@
+package com.bsuir.adbLab1.dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+import com.bsuir.adbLab1.connectionpool.ConnectionPool;
+import com.bsuir.adbLab1.connectionpool.ConnectionPoolException;
+import com.bsuir.adbLab1.entity.Citizenship;
+import com.bsuir.adbLab1.entity.City;
+import com.bsuir.adbLab1.entity.Disability;
+import com.bsuir.adbLab1.entity.MStatus;
+import com.bsuir.adbLab1.entity.User;
+
+public class CitizenshipDAO implements DataAccessDao {
+	private final String GET_LIST = "SELECT * FROM `citizenship`";
+	public CitizenshipDAO() {
+	}
+
+	@Override
+	public User getUserFromSource(String username, String password) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public boolean checkUser(String mail, String username, String password) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<City> getCityList() throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<MStatus> getStatusList() throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<Citizenship> getCitizenshipList() throws DaoException {
+		ArrayList<Citizenship> list = new ArrayList<Citizenship>();
+		Citizenship citizenship = null;
+		Connection connection = null;
+		Statement statement;
+		ResultSet resultSet;
+        ConnectionPool pool = ConnectionPool.getInstance();
+        try {
+            connection = pool.getConnection();
+            statement = connection.createStatement();
+            resultSet = statement.executeQuery(GET_LIST);
+            while (resultSet.next()) {
+            	citizenship =  new Citizenship();
+            	System.out.print(resultSet.getInt("citizenship_id"));
+            	citizenship.setId(resultSet.getInt("citizenship_id"));//просил здесь SuppressWarnings("null")
+
+            	System.out.println(resultSet.getString("name"));
+            	citizenship.setBookName(resultSet.getString("name"));
+            	System.out.println(resultSet.getInt("id_author_fk"));
+            	citizenship.setBookAuthor(ad.getAuthorById(resultSet.getInt("id_author_fk")));
+            	System.out.println(resultSet.getInt("is_avalible"));
+            	citizenship.setIsAvalible(resultSet.getInt("is_avalible"));
+            	System.out.println(resultSet.getInt("number_of_pages"));
+            	citizenship.setNumberOfPages(resultSet.getInt("number_of_pages"));
+            	System.out.println(resultSet.getInt("publication_date"));
+            	citizenship.setPublicationDate(resultSet.getInt("publication_date"));
+            	System.out.println(resultSet.getInt("id_section_fk"));
+            	citizenship.setSection(sd.getSectionById(resultSet.getInt("id_section_fk")));
+                list.add(citizenship);
+                System.out.println(citizenship.toString());
+            }
+        	statement.close();
+            return list;
+
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+        	pool.freeConnection(connection);
+        }
+	}
+
+	@Override
+	public ArrayList<Disability> getDisabilityList() throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

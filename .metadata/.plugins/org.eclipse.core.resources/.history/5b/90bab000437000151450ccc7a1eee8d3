@@ -1,0 +1,224 @@
+package com.bsuir.adbLab1.entity;
+
+public class User {
+	private String surname;
+	private String name;
+	private String secondName;
+	private String dateOfBirth;
+	private String passportSeries;
+	private String passportNumber;
+	private String authority;
+	private String dateOfIssue;
+	private int userID;
+	private String birthPlace;
+	private City city;
+	private String address;
+	private String homeTelephone;
+	private String mobileTelephone;
+	private String email;
+	private String placeOfWork;
+	private String wPosition;
+	private String registrationAddress;
+	private MStatus maritalStatus;
+	private Citizenship citizenship;
+	private Disability disability;
+	private String isPensioner;
+	private String monthlyIncome;
+	private String identification_number;
+	
+	public User() {
+	}
+
+	public String getSurname() {
+		return surname;
+	}
+
+	public void setSurname(String surname) {
+		this.surname = surname;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSecondName() {
+		return secondName;
+	}
+
+	public void setSecondName(String secondName) {
+		this.secondName = secondName;
+	}
+
+	public String getDateOfBirth() {
+		return dateOfBirth;
+	}
+
+	public void setDateOfBirth(String dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
+
+	public String getPassportSeries() {
+		return passportSeries;
+	}
+
+	public void setPassportSeries(String passportSeries) {
+		this.passportSeries = passportSeries;
+	}
+
+	public String getPassportNumber() {
+		return passportNumber;
+	}
+
+	public void setPassportNumber(String passportNumber) {
+		this.passportNumber = passportNumber;
+	}
+
+	public String getAuthority() {
+		return authority;
+	}
+
+	public void setAuthority(String authority) {
+		this.authority = authority;
+	}
+
+	public String getDateOfIssue() {
+		return dateOfIssue;
+	}
+
+	public void setDateOfIssue(String dateOfIssue) {
+		this.dateOfIssue = dateOfIssue;
+	}
+
+	public int getUserID() {
+		return userID;
+	}
+
+	public void setUserID(int userID) {
+		this.userID = userID;
+	}
+
+	public String getBirthPlace() {
+		return birthPlace;
+	}
+
+	public void setBirthPlace(String birthPlace) {
+		this.birthPlace = birthPlace;
+	}
+
+	public City getCity() {
+		return city;
+	}
+	
+	public void setCity(City city) {
+		this.city = city;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getHomeTelephone() {
+		return homeTelephone;
+	}
+
+	public void setHomeTelephone(String homeTelephone) {
+		this.homeTelephone = homeTelephone;
+	}
+
+	public String getMobileTelephone() {
+		return mobileTelephone;
+	}
+
+	public void setMobileTelephone(String mobileTelephone) {
+		this.mobileTelephone = mobileTelephone;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getPlaceOfWork() {
+		return placeOfWork;
+	}
+
+	public void setPlaceOfWork(String placeOfWork) {
+		this.placeOfWork = placeOfWork;
+	}
+
+	public String getwPosition() {
+		return wPosition;
+	}
+
+	public void setwPosition(String wPosition) {
+		this.wPosition = wPosition;
+	}
+
+	public String getRegistrationAddress() {
+		return registrationAddress;
+	}
+
+	public void setRegistrationAddress(String registrationAddress) {
+		this.registrationAddress = registrationAddress;
+	}
+
+	public MStatus getMaritalStatus() {
+		return maritalStatus;
+	}
+
+	public void setMaritalStatus(MStatus maritalStatus) {
+		this.maritalStatus = maritalStatus;
+	}
+
+	public Citizenship getCitizenship() {
+		return citizenship;
+	}
+
+	public void setCitizenship(Citizenship citizenship) {
+		this.citizenship = citizenship;
+	}
+
+	public Disability getDisability() {
+		return disability;
+	}
+
+	public void setDisability(Disability disability) {
+		this.disability = disability;
+	}
+
+	public String getIsPensioner() {
+		return isPensioner;
+	}
+
+	public void setIsPensioner(String isPensioner) {
+		this.isPensioner = isPensioner;
+	}
+
+	public String getMonthlyIncome() {
+		return monthlyIncome;
+	}
+
+	public void setMonthlyIncome(String monthlyIncome) {
+		this.monthlyIncome = monthlyIncome;
+	}
+
+	public String getIdentification_number() {
+		return identification_number;
+	}
+
+	public void setIdentification_number(String identification_number) {
+		this.identification_number = identification_number;
+	}
+
+}

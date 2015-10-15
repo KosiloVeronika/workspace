@@ -1,0 +1,9 @@
+package com.bsuir.adbLab1.logic;
+
+public class DeleteLogic {
+
+	public DeleteLogic() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

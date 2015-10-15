@@ -13,22 +13,16 @@
 </head>
 <body>
 	<header>
-		
 	    <div class="vladmaxi-top">
-	    <c:choose>
-		    <c:when test="${user == null}">
-		    	<ctg:locale-switch/>
-		    </c:when>
-	    </c:choose>
 	        <c:choose>
 	        	<c:when test="${user == null}">
-	        	
-	            <span class="right">
-					<a href="<c:url value="/jsp/registration.jsp"/>">
-	                	<strong><fmt:message key="lables.registration" bundle="${resourceBundle }"/></strong>
-	            	</a>
-	            	
-	            </span>
+		        	<ctg:locale-switch/>
+			            <span class="right">
+							<a href="<c:url value="/jsp/registration.jsp"/>">
+			                	<strong><fmt:message key="lables.registration" bundle="${resourceBundle }"/></strong>
+			            	</a>
+			            	
+			            </span>
 				</c:when>
 				<c:otherwise>
 					<i:import url="/jspf/hello_user.jsp" />

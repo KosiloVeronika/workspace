@@ -1,0 +1,302 @@
+package com.bsuir.adbLab1.dao;
+
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+import com.bsuir.adbLab1.connectionpool.ConnectionPool;
+import com.bsuir.adbLab1.connectionpool.ConnectionPoolException;
+import com.bsuir.adbLab1.entity.Citizenship;
+import com.bsuir.adbLab1.entity.City;
+import com.bsuir.adbLab1.entity.Disability;
+import com.bsuir.adbLab1.entity.MStatus;
+import com.bsuir.adbLab1.entity.User;
+
+public class UserDAO implements DataAccessDao {
+
+	private final String GET_USER_LIST = "SELECT * FROM `user`";
+	private final String GET_USER_BY_ID = "SELECT * FROM `user` WHERE `user_id` = %d";
+	private final String DELETE = "DELETE FROM `user` WHERE `user_id` = ?";
+	private final String CHANGE_USER = "UPDATE `user` SET `surname`=?,`first_name`=?,"
+			+ "`second_name`=?,`birth_date`=?,`passport_series`=?,`passport_number`=?,"
+			+ "`authority`=?,`date_of_issue`=?, `birth_place`=?,"
+			+ "`city_id_fk`=?,`address`=?,`home_telephone`=?,`mobile_telephone`=?,"
+			+ "`email`=?,`place_of_work`=?,`w_position`=?,`registration_address`=?,"
+			+ "`marital_status_id_fk`=?,`citizenship_id_fk`=?,`disability_id_fk`=?,"
+			+ "`pensioner`=?,`monthly_income`=?,`identification_number`=? WHERE `user_id` = %d";
+	private final String ADD_USER = "INSERT INTO `user`(`surname`, `first_name`, "
+			+ "`second_name`, `birth_date`, `passport_series`, `passport_number`, "
+			+ "`authority`, `date_of_issue`, `birth_place`, `city_id_fk`, "
+			+ "`address`, `home_telephone`, `mobile_telephone`, `email`, `place_of_work`, "
+			+ "`w_position`, `registration_address`, `marital_status_id_fk`, `citizenship_id_fk`, "
+			+ "`disability_id_fk`, `pensioner`, `monthly_income`, `identification_number`) "
+			+ "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+	public UserDAO() {	}
+
+	public User getUserByID(int id) throws DaoException {
+		User user = null;
+		Connection connection = null;
+		CitizenshipDAO citizenshipDao = new CitizenshipDAO();
+		CityDAO cityDao = new CityDAO();
+		DisabilityDAO disabilityDao = new DisabilityDAO();
+		StatusDAO statusDao = new StatusDAO();
+		Statement statement;
+		ResultSet resultSet;
+        ConnectionPool pool = ConnectionPool.getInstance();
+        try {
+            connection = pool.getConnection();
+            statement = connection.createStatement();
+            String query = String.format(GET_USER_BY_ID, id);
+            resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+            	user =  new User();
+            	user.setUserID(resultSet.getInt("user_id"));//просил здесь SuppressWarnings("null")
+            	
+            	user.setSurname(resultSet.getString("surname"));
+            	user.setName(resultSet.getString("first_name"));
+            	user.setSecondName(resultSet.getString("second_name"));
+            	
+            	user.setDateOfBirth(resultSet.getDate("birth_date"));
+            	user.setPassportSeries(resultSet.getString("passport_series"));
+            	user.setPassportNumber(resultSet.getString("passport_number"));
+            	user.setAuthority(resultSet.getString("authority"));
+            	
+            	user.setDateOfIssue(resultSet.getDate("date_of_issue"));
+            	user.setBirthPlace(resultSet.getString("birth_place"));
+            	
+            	user.setCity(cityDao.getCityById(Integer.parseInt(resultSet.getString("city_id_fk"))));
+            	
+            	user.setAddress(resultSet.getString("address"));
+            	user.setHomeTelephone(resultSet.getString("home_telephone"));
+            	user.setMobileTelephone(resultSet.getString("mobile_telephone"));
+            	user.setEmail(resultSet.getString("email"));
+            	user.setPlaceOfWork(resultSet.getString("place_of_work"));
+            	user.setwPosition(resultSet.getString("w_position"));
+            	user.setRegistrationAddress(resultSet.getString("registration_address"));
+            	
+            	user.setMaritalStatus(statusDao.getStatusById(Integer.parseInt(resultSet.getString("marital_status_id_fk"))));
+            	
+            	user.setCitizenship(citizenshipDao.getCitizenshipById(Integer.parseInt(resultSet.getString("citizenship_id_fk"))));
+            	
+            	user.setDisability(disabilityDao.getDisabilityById(Integer.parseInt(resultSet.getString("disability_id_fk"))));
+            	
+            	user.setIsPensioner(resultSet.getString("pensioner"));
+            	
+            	user.setMonthlyIncome(resultSet.getString("monthly_income"));
+            	user.setIdentification_number(resultSet.getString("identification_number"));
+                System.out.println(user.toString());
+            }
+        	statement.close();
+            return user;
+
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+        	pool.freeConnection(connection);
+        }
+	}
+	
+	public boolean deleteUser(int id) throws DaoException {
+		Connection connection = null;
+		Statement statement;
+		PreparedStatement ps;
+		ResultSet resultSet;
+		System.out.println(id);
+        ConnectionPool pool = ConnectionPool.getInstance();
+        try {
+            connection = pool.getConnection();
+            ps = connection.prepareStatement(DELETE);
+        	ps.setInt(1, id));
+            statement = connection.createStatement();
+            String query = String.format(DELETE, id);
+            resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+                System.out.println("deleted");
+            }
+        	statement.close();
+            return true;
+
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+        	pool.freeConnection(connection);
+        }
+	}
+	@Override 
+	public ArrayList<User> getUserList() throws DaoException {
+		ArrayList<User> list = new ArrayList<User>();
+		User user = null;
+		Connection connection = null;
+		CitizenshipDAO citizenshipDao = new CitizenshipDAO();
+		CityDAO cityDao = new CityDAO();
+		DisabilityDAO disabilityDao = new DisabilityDAO();
+		StatusDAO statusDao = new StatusDAO();
+		Statement statement;
+		ResultSet resultSet;
+        ConnectionPool pool = ConnectionPool.getInstance();
+        try {
+            connection = pool.getConnection();
+            statement = connection.createStatement();
+            resultSet = statement.executeQuery(GET_USER_LIST);
+            while (resultSet.next()) {
+            	user =  new User();
+            	user.setUserID(resultSet.getInt("user_id"));//просил здесь SuppressWarnings("null")
+            	
+            	user.setSurname(resultSet.getString("surname"));
+            	user.setName(resultSet.getString("first_name"));
+            	user.setSecondName(resultSet.getString("second_name"));
+            	
+            	user.setDateOfBirth(resultSet.getDate("birth_date"));
+            	user.setPassportSeries(resultSet.getString("passport_series"));
+            	user.setPassportNumber(resultSet.getString("passport_number"));
+            	user.setAuthority(resultSet.getString("authority"));
+            	
+            	user.setDateOfIssue(resultSet.getDate("date_of_issue"));
+            	user.setBirthPlace(resultSet.getString("birth_place"));
+            	
+            	user.setCity(cityDao.getCityById(Integer.parseInt(resultSet.getString("city_id_fk"))));
+            	
+            	user.setAddress(resultSet.getString("address"));
+            	user.setHomeTelephone(resultSet.getString("home_telephone"));
+            	user.setMobileTelephone(resultSet.getString("mobile_telephone"));
+            	user.setEmail(resultSet.getString("email"));
+            	user.setPlaceOfWork(resultSet.getString("place_of_work"));
+            	user.setwPosition(resultSet.getString("w_position"));
+            	user.setRegistrationAddress(resultSet.getString("registration_address"));
+            	
+            	user.setMaritalStatus(statusDao.getStatusById(Integer.parseInt(resultSet.getString("marital_status_id_fk"))));
+            	
+            	user.setCitizenship(citizenshipDao.getCitizenshipById(Integer.parseInt(resultSet.getString("citizenship_id_fk"))));
+            	
+            	user.setDisability(disabilityDao.getDisabilityById(Integer.parseInt(resultSet.getString("disability_id_fk"))));
+            	
+            	user.setIsPensioner(resultSet.getString("pensioner"));
+            	
+            	user.setMonthlyIncome(resultSet.getString("monthly_income"));
+            	user.setIdentification_number(resultSet.getString("identification_number"));
+                list.add(user);
+                System.out.println(user.toString());
+            }
+        	statement.close();
+            return list;
+
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+        	pool.freeConnection(connection);
+        }
+	}
+
+	@Override
+	public boolean changeUser(User user) throws DaoException {
+		Connection connection = null;
+		ConnectionPool pool = ConnectionPool.getInstance();
+		PreparedStatement ps;
+		try {
+			String query = String.format(CHANGE_USER, user.getUserID());
+            connection = pool.getConnection();
+            	ps = connection.prepareStatement(query);
+            	ps.setString(1, user.getSurname());
+            	ps.setString(2, user.getName());
+            	ps.setString(3, user.getSecondName());
+            	ps.setDate(4, new Date(user.getDateOfBirth().getTime()));
+            	ps.setString(5, user.getPassportSeries());
+            	ps.setString(6, user.getPassportNumber());
+            	ps.setString(7, user.getAuthority());
+            	ps.setDate(8, new Date(user.getDateOfIssue().getTime()));
+            	ps.setString(9, user.getBirthPlace());
+            	ps.setInt(10, user.getCity().getId());
+            	ps.setString(11, user.getAddress());
+            	ps.setString(12, user.getHomeTelephone());
+            	ps.setString(13, user.getMobileTelephone());
+            	ps.setString(14, user.getEmail());
+            	ps.setString(15, user.getPlaceOfWork());
+            	ps.setString(16, user.getwPosition());
+            	ps.setString(17, user.getRegistrationAddress());
+            	ps.setInt(18, user.getMaritalStatus().getId());
+            	ps.setInt(19, user.getCitizenship().getId());
+            	ps.setInt(20, user.getDisability().getId());
+            	ps.setString(21, user.getIsPensioner());
+            	ps.setString(22, user.getMonthlyIncome());
+            	ps.setString(23, user.getIdentification_number());
+            	ps.executeUpdate();
+            	return true;
+
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+			pool.freeConnection(connection);
+		}
+	}
+
+	@Override
+	public boolean addUser(User user) throws DaoException {
+		Connection connection = null;
+		ConnectionPool pool = ConnectionPool.getInstance();
+		PreparedStatement ps;
+		try {
+            connection = pool.getConnection();
+            	ps = connection.prepareStatement(ADD_USER);
+            	ps.setString(1, user.getSurname());
+            	ps.setString(2, user.getName());
+            	ps.setString(3, user.getSecondName());
+            	ps.setDate(4, new Date(user.getDateOfBirth().getTime()));
+            	System.out.println(user.getPassportSeries());
+            	ps.setString(5, user.getPassportSeries());
+            	ps.setString(6, user.getPassportNumber());
+            	ps.setString(7, user.getAuthority());
+            	ps.setDate(8, new Date(user.getDateOfIssue().getTime()));
+            	ps.setString(9, user.getBirthPlace());
+            	ps.setInt(10, user.getCity().getId());
+            	ps.setString(11, user.getAddress());
+            	ps.setString(12, user.getHomeTelephone());
+            	ps.setString(13, user.getMobileTelephone());
+            	ps.setString(14, user.getEmail());
+            	ps.setString(15, user.getPlaceOfWork());
+            	ps.setString(16, user.getwPosition());
+            	ps.setString(17, user.getRegistrationAddress());
+            	ps.setInt(18, user.getMaritalStatus().getId());
+            	ps.setInt(19, user.getCitizenship().getId());
+            	ps.setInt(20, user.getDisability().getId());
+            	ps.setString(21, user.getIsPensioner());
+            	ps.setString(22, user.getMonthlyIncome());
+            	ps.setString(23, user.getIdentification_number());
+            	ps.executeUpdate();
+            	return true;
+
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+			pool.freeConnection(connection);
+		}
+	}
+	@Override
+	public ArrayList<City> getCityList() throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<MStatus> getStatusList() throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Citizenship> getCitizenshipList() throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Disability> getDisabilityList() throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public User showUser(int id) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+}

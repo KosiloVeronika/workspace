@@ -7,11 +7,10 @@ import org.apache.log4j.Logger;
 import com.epam.libraryManager.dao.BookDAO;
 import com.epam.libraryManager.dao.DaoException;
 import com.epam.libraryManager.entity.Book;
-import com.epam.libraryManager.entity.User;
 
 public class ShowAllBooksLogic {
 
-	private final static Logger LOG = Logger.getLogger(LoginLogic.class);
+	private final static Logger LOG = Logger.getLogger(ShowAllBooksLogic.class);
 	public static ArrayList<Book> getAllBooks() throws LogicException {
 		BookDAO bookDAO = new BookDAO();
 		ArrayList<Book> books = new ArrayList<Book>();

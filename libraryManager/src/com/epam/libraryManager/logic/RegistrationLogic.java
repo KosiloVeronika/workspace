@@ -8,7 +8,7 @@ public class RegistrationLogic {
 
 	public RegistrationLogic() {
 	}
-	public static boolean RegisterUser(String mail, String username, String password) throws LogicException {
+	public static boolean registerUser(String mail, String username, String password) throws LogicException {
 		DataAccessDao dataaccess = new DatabaseDao();
 		try {
 			return dataaccess.checkUser(mail, username, password);

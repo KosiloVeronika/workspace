@@ -1,0 +1,31 @@
+package com.bsuir.adbLab1.command;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.log4j.Logger;
+
+import com.bsuir.adbLab1.logic.LogicException;
+import com.bsuir.adbLab1.logic.ShowLogic;
+import com.bsuir.adbLab1.resource.ConfigurationManager;
+
+public class ShowCommand implements ICommand {
+	private static final Logger LOG = Logger.getLogger(ShowCommand.class);
+	public ShowCommand() {	}
+
+	@Override
+	public String execute(HttpServletRequest request) {
+		String page = null;
+		try {
+			request.setAttribute("users", ShowLogic.Show());
+				// определение пути к main.jsp
+			LOG.debug("WE SHOW YOU users");
+			page = ConfigurationManager.getProperty("path.page.main");
+
+		} catch (LogicException ex) {
+			LOG.error("SHOW ALL BOOKS", ex);
+		}
+		return page;
+	
+
+	}
+}

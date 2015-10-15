@@ -1,0 +1,29 @@
+package com.bsuir.adbLab1.command;
+
+public enum CommandEnum {
+
+	ADD{
+		{
+			this.command = new AddCommand();
+		}
+	},
+	DELETE {
+		{
+			this.command = new DeleteCommand();
+		}
+	},
+	CHANGE {
+		{
+			this.command = new ChangeCommand();
+		}
+	},
+	LOGOUT {
+		{
+			//this.command = new LogoutCommand();
+		}
+	};
+	ICommand command;
+	public ICommand getCurrentCommand() {
+		return command;
+	}
+}

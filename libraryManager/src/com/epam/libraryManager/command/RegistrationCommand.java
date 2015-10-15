@@ -28,7 +28,7 @@ public class RegistrationCommand implements ICommand {
 		String email = request.getParameter(PARAM_NAME_EMAIL);
 		// проверка логина и пароля
 		try {
-			if (RegistrationLogic.RegisterUser(email, login, pass)) {
+			if (RegistrationLogic.registerUser(email, login, pass)) {
 				request.setAttribute("user", login);
 				// определение пути к main.jsp
 				page = ConfigurationManager.getProperty("path.page.main");

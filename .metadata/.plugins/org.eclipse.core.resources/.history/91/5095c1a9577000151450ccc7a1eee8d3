@@ -1,0 +1,8 @@
+package com.bsuir.adbLab1.command;
+
+public class DeleteCommand implements ICommand {
+
+	public DeleteCommand() {
+	}
+
+}

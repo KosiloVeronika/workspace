@@ -1,0 +1,59 @@
+package com.bsuir.adbLab1.logic;
+
+import java.util.Date;
+
+import com.bsuir.adbLab1.dao.CitizenshipDAO;
+import com.bsuir.adbLab1.dao.CityDAO;
+import com.bsuir.adbLab1.dao.DaoException;
+import com.bsuir.adbLab1.dao.UserDAO;
+import com.bsuir.adbLab1.entity.Citizenship;
+import com.bsuir.adbLab1.entity.City;
+import com.bsuir.adbLab1.entity.Disability;
+import com.bsuir.adbLab1.entity.MStatus;
+import com.bsuir.adbLab1.entity.User;
+
+public class AddLogic {
+
+	public AddLogic() {}
+	
+	public static boolean add(User user) throws LogicException {
+		UserDAO userDao = new UserDAO();
+		try {
+			return userDao.addUser(user);
+		} catch (DaoException e) {
+			throw new LogicException("bla bla", e);
+		}
+	}
+	public static User create(String surname, String name, String secondName, 
+			Date dateOfBirth, String passportSeries,String passportNumber, String authority, 
+			Date dateOfIssue, String birthPlace, int cityID, String address, 
+			String homeTelephone, String mobileTelephone, String email, String placeOfWork, 
+			String wPosition, String registrationAddress, MStatus maritalStatus, 
+			Citizenship citizenship, Disability disability, String isPensioner, 
+			String monthlyIncome, String identification_number) throws LogicException {
+
+		CityDAO cityd = new CityDAO();
+		CitizenshipDAO citizenshipd = new CitizenshipDAO();
+		User user = new User();
+		user.setSurname(surname);
+		user.setName(name);
+		user.setSecondName(secondName);
+		user.setDateOfBirth(dateOfBirth);
+		user.setPassportSeries(passportSeries);
+		user.setPassportNumber(passportNumber);
+		user.setAuthority(authority);
+		user.setHomeTelephone(homeTelephone);
+		user.setMobileTelephone(mobileTelephone);
+		user.setEmail(email);
+		user.setPlaceOfWork(placeOfWork);
+		user.setwPosition(wPosition);
+		user.setRegistrationAddress(registrationAddress);
+		user.setMaritalStatus(maritalStatus);
+		user.setCitizenship(citizenship);
+		user.setDisability(disability);
+		user.setIsPensioner(isPensioner);
+		user.setMonthlyIncome(monthlyIncome);
+		user.setIdentification_number(identification_number);
+		return user;
+	}
+}

@@ -1,0 +1,800 @@
+2015-10-06 00:00:02,049 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 00:00:02,083 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 00:00:02,083 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 00:00:02,083 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.OrderCommand  - 
+2015-10-06 00:01:05,210 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 00:01:05,213 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-06 00:01:09,396 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 00:01:09,397 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-06 00:01:10,143 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-06 00:01:10,144 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-06 00:01:12,015 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 00:01:12,016 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 00:01:12,029 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 00:01:27,897 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 00:01:27,897 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 00:01:27,898 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 00:01:27,898 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.command.OrderCommand  - 
+2015-10-06 13:47:46,495 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 13:47:46,517 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-06 13:47:47,692 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-06 13:47:47,696 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-06 13:47:51,023 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 13:47:51,026 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 13:47:51,039 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 13:47:57,910 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 13:47:57,914 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 13:47:57,914 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 13:47:57,914 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - 
+2015-10-06 13:49:32,785 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 13:49:32,790 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 13:49:33,246 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 13:49:37,384 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 13:49:37,385 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 13:49:37,385 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 13:49:37,385 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.OrderCommand  - 
+2015-10-06 13:50:31,096 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 13:50:31,099 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 13:50:31,531 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 13:50:41,736 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 13:50:41,736 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 13:50:41,736 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 13:50:41,736 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.OrderCommand  - 
+2015-10-06 13:52:04,966 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 13:52:04,970 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 13:52:05,450 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 13:52:09,590 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 13:52:09,590 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 13:52:09,590 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 13:52:09,590 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - 
+2015-10-06 13:53:28,514 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 13:53:28,520 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-06 13:53:30,132 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 13:53:30,135 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-06 13:53:30,864 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-06 13:53:30,864 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-06 13:53:32,212 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 13:53:32,215 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 13:53:32,236 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 13:53:36,899 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 13:53:36,899 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 13:53:36,899 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 13:53:36,899 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.OrderCommand  - 
+2015-10-06 13:53:36,899 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.OrderCommand  - 
+2015-10-06 13:53:43,750 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 13:53:43,750 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 13:53:43,750 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 13:53:43,750 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.OrderCommand  - 
+2015-10-06 13:53:43,750 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.OrderCommand  - 
+2015-10-06 14:04:07,675 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 14:04:07,680 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 14:04:07,692 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 14:04:07,692 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.OrderCommand  - 1
+2015-10-06 14:04:07,692 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.OrderCommand  - ON_HANDS
+2015-10-06 14:05:39,810 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 14:05:39,815 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 14:05:39,823 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 14:05:39,823 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.OrderCommand  - 1
+2015-10-06 14:05:39,823 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.OrderCommand  - ON_HANDS
+2015-10-06 14:05:40,263 [http-bio-8080-exec-3] ERROR com.epam.libraryManager.command.OrderCommand  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:17)
+	at com.epam.libraryManager.command.OrderCommand.execute(OrderCommand.java:30)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: No value specified for parameter 4
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:40)
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:15)
+	... 25 more
+Caused by: java.sql.SQLException: No value specified for parameter 4
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2179)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1996)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:37)
+	... 26 more
+2015-10-06 14:08:40,424 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 14:08:40,427 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 14:08:40,863 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 14:08:44,980 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 14:08:44,982 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 14:08:44,982 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 14:08:44,982 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - 1
+2015-10-06 14:08:44,982 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - ON_HANDS
+2015-10-06 14:08:44,996 [http-bio-8080-exec-6] ERROR com.epam.libraryManager.command.OrderCommand  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:17)
+	at com.epam.libraryManager.command.OrderCommand.execute(OrderCommand.java:30)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: No value specified for parameter 4
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:40)
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:15)
+	... 25 more
+Caused by: java.sql.SQLException: No value specified for parameter 4
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2179)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1996)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:37)
+	... 26 more
+2015-10-06 14:11:24,537 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 14:11:24,542 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 14:11:24,982 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 14:11:27,685 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 14:11:27,687 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 14:11:27,687 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 14:11:27,687 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - 2
+2015-10-06 14:11:27,687 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - ON_HANDS
+2015-10-06 14:11:27,697 [http-bio-8080-exec-6] ERROR com.epam.libraryManager.command.OrderCommand  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:17)
+	at com.epam.libraryManager.command.OrderCommand.execute(OrderCommand.java:30)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Parameter index out of range (0 < 1 ).
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:41)
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:15)
+	... 25 more
+Caused by: java.sql.SQLException: Parameter index out of range (0 < 1 ).
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.PreparedStatement.checkBounds(PreparedStatement.java:3274)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:3263)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:3305)
+	at com.mysql.jdbc.PreparedStatement.setInt(PreparedStatement.java:3249)
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:34)
+	... 26 more
+2015-10-06 16:27:13,654 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:27:13,656 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 16:27:14,476 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 16:27:19,893 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:27:19,907 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 16:27:19,913 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 16:27:32,010 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:27:32,010 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-06 16:27:32,748 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-06 16:27:32,748 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-06 16:27:35,444 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:27:35,444 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 16:27:35,448 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 16:27:39,606 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:27:39,606 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 16:27:39,606 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 16:27:39,606 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.OrderCommand  - 1
+2015-10-06 16:27:39,606 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.OrderCommand  - ON_HANDS
+2015-10-06 16:27:39,685 [http-bio-8080-exec-10] ERROR com.epam.libraryManager.command.OrderCommand  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:17)
+	at com.epam.libraryManager.command.OrderCommand.execute(OrderCommand.java:30)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Parameter index out of range (0 < 1 ).
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:45)
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:15)
+	... 25 more
+Caused by: java.sql.SQLException: Parameter index out of range (0 < 1 ).
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.PreparedStatement.checkBounds(PreparedStatement.java:3274)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:3263)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:3305)
+	at com.mysql.jdbc.PreparedStatement.setInt(PreparedStatement.java:3249)
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:34)
+	... 26 more
+2015-10-06 16:29:08,073 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:29:08,077 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 16:29:08,093 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 16:29:08,093 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - 1
+2015-10-06 16:29:08,093 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - ON_HANDS
+2015-10-06 16:29:08,719 [http-bio-8080-exec-1] ERROR com.epam.libraryManager.command.OrderCommand  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: !!!
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:18)
+	at com.epam.libraryManager.command.OrderCommand.execute(OrderCommand.java:30)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Parameter index out of range (0 < 1 ).
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:45)
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:15)
+	... 25 more
+Caused by: java.sql.SQLException: Parameter index out of range (0 < 1 ).
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.PreparedStatement.checkBounds(PreparedStatement.java:3274)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:3263)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:3305)
+	at com.mysql.jdbc.PreparedStatement.setInt(PreparedStatement.java:3249)
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:34)
+	... 26 more
+2015-10-06 16:30:49,015 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:30:49,031 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 16:30:49,551 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 16:30:54,023 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:30:54,034 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 16:30:54,040 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 16:30:58,068 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:30:58,068 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 16:30:58,068 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 16:30:58,068 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.OrderCommand  - 2
+2015-10-06 16:30:58,068 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.OrderCommand  - ON_HANDS
+2015-10-06 16:30:58,084 [http-bio-8080-exec-10] ERROR com.epam.libraryManager.command.OrderCommand  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: !!!
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:19)
+	at com.epam.libraryManager.command.OrderCommand.execute(OrderCommand.java:30)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Parameter index out of range (0 < 1 ).
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:45)
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:16)
+	... 25 more
+Caused by: java.sql.SQLException: Parameter index out of range (0 < 1 ).
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.PreparedStatement.checkBounds(PreparedStatement.java:3274)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:3263)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:3305)
+	at com.mysql.jdbc.PreparedStatement.setInt(PreparedStatement.java:3249)
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:34)
+	... 26 more
+2015-10-06 16:34:33,187 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:34:33,195 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 16:34:33,883 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 16:34:35,955 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:34:35,957 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 16:34:35,957 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 16:34:35,957 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - 2
+2015-10-06 16:34:35,957 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - IN_READING_ROOM
+2015-10-06 16:34:35,970 [http-bio-8080-exec-6] ERROR com.epam.libraryManager.command.OrderCommand  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: !!!
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:19)
+	at com.epam.libraryManager.command.OrderCommand.execute(OrderCommand.java:30)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: No value specified for parameter 4
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:44)
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:16)
+	... 25 more
+Caused by: java.sql.SQLException: No value specified for parameter 4
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2179)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1996)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:41)
+	... 26 more
+2015-10-06 16:42:37,560 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:42:37,570 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 16:42:37,588 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 16:42:37,588 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - 1
+2015-10-06 16:42:37,588 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - ON_HANDS
+2015-10-06 16:42:38,392 [http-bio-8080-exec-1] ERROR com.epam.libraryManager.command.OrderCommand  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: !!!
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:19)
+	at com.epam.libraryManager.command.OrderCommand.execute(OrderCommand.java:30)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: No value specified for parameter 1
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:44)
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:16)
+	... 25 more
+Caused by: java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2179)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1996)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:41)
+	... 26 more
+2015-10-06 16:43:11,921 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:43:11,927 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 16:43:11,943 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 16:43:11,947 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - 1
+2015-10-06 16:43:11,947 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - ON_HANDS
+2015-10-06 16:43:12,599 [http-bio-8080-exec-1] ERROR com.epam.libraryManager.command.OrderCommand  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: !!!
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:19)
+	at com.epam.libraryManager.command.OrderCommand.execute(OrderCommand.java:30)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 3).
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:44)
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:16)
+	... 25 more
+Caused by: java.sql.SQLException: Parameter index out of range (4 > number of parameters, which is 3).
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.PreparedStatement.checkBounds(PreparedStatement.java:3279)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:3263)
+	at com.mysql.jdbc.PreparedStatement.setString(PreparedStatement.java:4087)
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:39)
+	... 26 more
+2015-10-06 16:43:50,887 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:43:50,889 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 16:43:50,901 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 16:43:50,901 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.OrderCommand  - 1
+2015-10-06 16:43:50,901 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.OrderCommand  - ON_HANDS
+2015-10-06 16:43:51,461 [http-bio-8080-exec-3] ERROR com.epam.libraryManager.command.OrderCommand  - SHOW ALL BOOKS
+com.epam.libraryManager.logic.LogicException: !!!
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:19)
+	at com.epam.libraryManager.command.OrderCommand.execute(OrderCommand.java:30)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doPost(Controller.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Field 'id_order' doesn't have a default value
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:44)
+	at com.epam.libraryManager.logic.OrderLogic.addOrder(OrderLogic.java:16)
+	... 25 more
+Caused by: java.sql.SQLException: Field 'id_order' doesn't have a default value
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2022)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.epam.libraryManager.dao.OrderDAO.addOrder(OrderDAO.java:41)
+	... 26 more
+2015-10-06 16:44:28,441 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 16:44:28,449 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 16:44:28,465 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 16:44:28,469 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - 1
+2015-10-06 16:44:28,469 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - ON_HANDS
+2015-10-06 16:44:29,109 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - order was confirmed
+2015-10-06 16:44:29,121 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - order was confirmed
+2015-10-06 16:44:29,137 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.OrderCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:02:47,030 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:02:47,033 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-06 18:02:51,502 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:02:51,503 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-06 18:02:52,222 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-06 18:02:52,222 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-06 18:02:55,333 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:02:55,333 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:09:05,464 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:09:05,479 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-06 18:09:06,700 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-06 18:09:06,700 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-06 18:09:09,428 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:09:09,428 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-06 18:09:11,264 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:09:11,265 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-06 18:09:11,307 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-06 18:09:11,307 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-06 18:09:13,349 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:09:13,349 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:10:13,909 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:10:13,912 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-06 18:10:15,029 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:10:15,030 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-06 18:10:15,834 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-06 18:10:15,834 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-06 18:10:18,050 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:10:18,050 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:10:18,061 [http-bio-8080-exec-8] ERROR com.epam.libraryManager.command.ShowOrderCommand  - SHOW ALL ORDERS
+com.epam.libraryManager.logic.LogicException: bla bla
+	at com.epam.libraryManager.logic.ShowAllOrdersLogic.getAllOrders(ShowAllOrdersLogic.java:24)
+	at com.epam.libraryManager.command.ShowOrderCommand.execute(ShowOrderCommand.java:20)
+	at com.epam.libraryManager.controller.Controller.processRequest(Controller.java:46)
+	at com.epam.libraryManager.controller.Controller.doGet(Controller.java:32)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.epam.libraryManager.dao.DaoException: java.sql.SQLException: Column 'id_author' not found.
+	at com.epam.libraryManager.dao.BookDAO.getBookById(BookDAO.java:95)
+	at com.epam.libraryManager.dao.OrderDAO.getOrdersByUserId(OrderDAO.java:74)
+	at com.epam.libraryManager.logic.ShowAllOrdersLogic.getAllOrders(ShowAllOrdersLogic.java:18)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'id_author' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2719)
+	at com.epam.libraryManager.dao.BookDAO.getBookById(BookDAO.java:84)
+	... 27 more
+2015-10-06 18:11:33,651 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:11:33,655 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-06 18:11:35,206 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:11:35,207 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-06 18:11:35,977 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-06 18:11:35,977 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-06 18:11:38,725 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:11:38,725 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:11:38,743 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:12:47,609 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:12:47,611 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-06 18:12:48,766 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:12:48,766 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-06 18:12:49,481 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-06 18:12:49,481 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-06 18:12:51,796 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:12:51,797 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:12:51,813 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:13:47,429 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:13:47,431 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:13:47,900 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:15:34,127 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:15:34,129 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-06 18:15:35,297 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:15:35,297 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-06 18:15:36,096 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-06 18:15:36,096 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-06 18:15:45,978 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:15:45,979 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 18:15:45,985 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:15:48,862 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:15:48,863 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 18:15:48,864 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:17:15,204 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:17:15,207 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 18:17:15,670 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:17:17,519 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:17:17,520 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 18:17:17,521 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:17:19,139 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:17:19,140 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:17:19,154 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:17:22,480 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:17:22,481 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 18:17:22,482 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:17:24,409 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:17:24,410 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-06 18:17:25,595 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:17:25,596 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-06 18:17:25,912 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-06 18:17:25,912 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-06 18:17:29,153 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:17:29,153 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 18:17:29,154 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:21:54,521 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:21:54,524 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 18:21:54,939 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:23:53,021 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:23:53,024 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 18:23:53,468 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:23:58,995 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:23:58,996 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:23:59,005 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:29:13,770 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:29:13,773 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:29:14,244 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:30:41,232 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:30:41,235 [http-bio-8080-exec-2] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:30:41,675 [http-bio-8080-exec-2] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:31:16,694 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:31:16,697 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:31:17,133 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:32:18,389 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:32:18,392 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:32:18,849 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:34:50,354 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:34:50,354 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:34:50,367 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:36:48,589 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:36:48,589 [http-bio-8080-exec-9] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:36:48,605 [http-bio-8080-exec-9] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:37:44,900 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:37:44,900 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:37:44,918 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:38:17,944 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:38:17,944 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:38:17,955 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:38:34,802 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:38:34,803 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:38:34,806 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:38:48,939 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:38:48,939 [http-bio-8080-exec-1] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:38:48,941 [http-bio-8080-exec-1] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:39:39,311 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:39:39,322 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:39:39,324 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:39:49,275 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:39:49,275 [http-bio-8080-exec-10] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 18:39:49,312 [http-bio-8080-exec-10] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:40:15,392 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:40:15,392 [http-bio-8080-exec-4] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 18:40:15,399 [http-bio-8080-exec-4] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:41:34,204 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:41:34,207 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 18:41:34,207 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 18:41:34,208 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.OrderCommand  - 2
+2015-10-06 18:41:34,208 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.OrderCommand  - IN_READING_ROOM
+2015-10-06 18:41:34,257 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.OrderCommand  - order was confirmed
+2015-10-06 18:41:34,283 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.OrderCommand  - order was confirmed
+2015-10-06 18:41:34,291 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.OrderCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:42:03,771 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:42:03,772 [http-bio-8080-exec-5] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 18:42:03,772 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 18:42:03,772 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.OrderCommand  - 2
+2015-10-06 18:42:03,772 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.OrderCommand  - IN_READING_ROOM
+2015-10-06 18:42:03,782 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.OrderCommand  - order was confirmed
+2015-10-06 18:42:03,782 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.OrderCommand  - order was confirmed
+2015-10-06 18:42:03,790 [http-bio-8080-exec-5] DEBUG com.epam.libraryManager.command.OrderCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:42:09,726 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:42:09,729 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:42:09,730 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:42:16,363 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:42:16,363 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 18:42:16,363 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 18:42:16,363 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.OrderCommand  - 
+2015-10-06 18:42:16,363 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.OrderCommand  - 
+2015-10-06 18:42:21,703 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:42:21,705 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - show_all_books
+2015-10-06 18:42:21,708 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.ShowAllBooksCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:42:24,037 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:42:24,040 [http-bio-8080-exec-6] INFO  com.epam.libraryManager.command.CommandFactory  - add
+2015-10-06 18:42:24,040 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - 6
+2015-10-06 18:42:24,040 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - 3
+2015-10-06 18:42:24,040 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - IN_READING_ROOM
+2015-10-06 18:42:24,041 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - order was confirmed
+2015-10-06 18:42:24,041 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - order was confirmed
+2015-10-06 18:42:24,045 [http-bio-8080-exec-6] DEBUG com.epam.libraryManager.command.OrderCommand  - WE SHOW YOU BOOKS
+2015-10-06 18:51:31,583 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:51:31,584 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:51:31,589 [http-bio-8080-exec-7] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS
+2015-10-06 18:51:47,136 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:51:47,136 [http-bio-8080-exec-7] INFO  com.epam.libraryManager.command.CommandFactory  - logout
+2015-10-06 18:52:10,812 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:52:10,812 [http-bio-8080-exec-3] INFO  com.epam.libraryManager.command.CommandFactory  - login
+2015-10-06 18:52:11,143 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.LoginCommand  - 6
+2015-10-06 18:52:11,143 [http-bio-8080-exec-3] DEBUG com.epam.libraryManager.command.LoginCommand  - user has been logged
+2015-10-06 18:52:57,417 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-06 18:52:57,418 [http-bio-8080-exec-8] INFO  com.epam.libraryManager.command.CommandFactory  - show_orders
+2015-10-06 18:52:57,425 [http-bio-8080-exec-8] DEBUG com.epam.libraryManager.command.ShowOrderCommand  - WE SHOW YOU ORDERS

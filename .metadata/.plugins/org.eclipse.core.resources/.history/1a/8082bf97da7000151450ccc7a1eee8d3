@@ -1,0 +1,9 @@
+package com.bsuir.adbLab1.logic;
+
+public class AddLogic {
+
+	public AddLogic() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

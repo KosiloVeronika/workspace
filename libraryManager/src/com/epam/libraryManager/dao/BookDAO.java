@@ -8,15 +8,20 @@ import java.util.ArrayList;
 
 import com.epam.libraryManager.connectionpool.ConnectionPool;
 import com.epam.libraryManager.connectionpool.ConnectionPoolException;
+import com.epam.libraryManager.entity.Author;
 import com.epam.libraryManager.entity.Book;
+import com.epam.libraryManager.entity.Order;
+import com.epam.libraryManager.entity.Section;
+import com.epam.libraryManager.entity.Statment;
 import com.epam.libraryManager.entity.User;
 
 public class BookDAO implements DataAccessDao {
 	private final String GET_BOOK_BY_USER_ID = "SELECT * FROM `book` WHERE id_book = '%d' ";
+	private final String GET_BOOK_BY_ID = "SELECT * FROM `book` WHERE id_book = '%d'";
 	private final String GET_ALL_BOOKS = "SELECT * FROM `book`";
 
-	@SuppressWarnings("null")
-	public ArrayList<Book> getAllBooks() throws DaoException{
+	@Override
+	public ArrayList<Book> getAllBooks() throws DaoException {
 		ArrayList<Book> books = new ArrayList<Book>();
 		Book book = null;
 		Connection connection = null;
@@ -59,6 +64,41 @@ public class BookDAO implements DataAccessDao {
         }
 	}
 	
+	public Book getBookById(int id) throws DaoException {
+		Book book = null;
+		Connection connection = null;
+		Statement statement;
+		ResultSet resultSet;
+        ConnectionPool pool = ConnectionPool.getInstance();
+        try {
+            connection = pool.getConnection();
+            String query = String.format(GET_BOOK_BY_ID , id);
+            AuthorDAO ad = new AuthorDAO();
+            SectionDAO sd = new SectionDAO();
+            statement = connection.createStatement();
+            resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+            	book = new Book();
+            	book.setBookID(resultSet.getInt("id_book"));//просил здесь SuppressWarnings("null")
+            	book.setBookName(resultSet.getString("name"));
+            	book.setBookAuthor(ad.getAuthorById(resultSet.getInt("id_author_fk")));
+            	book.setIsAvalible(resultSet.getInt("is_avalible"));
+            	book.setNumberOfPages(resultSet.getInt("number_of_pages"));
+            	book.setPublicationDate(resultSet.getInt("publication_date"));
+            	book.setSection(sd.getSectionById(resultSet.getInt("id_section_fk")));
+
+            }
+        	statement.close();
+            return book;
+
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+        	pool.freeConnection(connection);
+        }
+	}
+	
+	@Override
 	public ArrayList<Book> getBooksByUserId(int id) throws DaoException {
 		ArrayList<Book> books = new ArrayList<Book>();
 		Book book = null;
@@ -74,6 +114,7 @@ public class BookDAO implements DataAccessDao {
             statement = connection.createStatement();
             resultSet = statement.executeQuery(query);
             while (resultSet.next()) {
+            	book = new Book();
             	book.setBookID(resultSet.getInt("id_book"));//просил здесь SuppressWarnings("null")
             	book.setBookName(resultSet.getString("name"));
             	book.setBookAuthor(ad.getAuthorById(resultSet.getInt("id_author")));
@@ -94,11 +135,49 @@ public class BookDAO implements DataAccessDao {
 	}
 	@Override
 	public User getUserFromSource(String username, String password) throws DaoException {
-		return null;
+		throw new UnsupportedOperationException();
 	}
 
 	@Override
 	public boolean checkUser(String mail, String username, String password) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Section> getAllSections() throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public Section getSectionById(int id) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Author> getAllAuthors() throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public Author getAuthorById(int id) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Order> getAllOrders() throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<Order> getOrdersByUserId(int i) throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean addOrder(int user_id, int book_id, Statment st) throws DaoException {
+		// TODO Auto-generated method stub
 		return false;
 	}
 

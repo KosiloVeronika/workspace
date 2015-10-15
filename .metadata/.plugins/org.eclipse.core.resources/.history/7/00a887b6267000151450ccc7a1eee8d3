@@ -1,0 +1,23 @@
+package com.bsuir.adbLab1.dao;
+
+import com.bsuir.adbLab1.entity.User;
+
+public class CitezenshipDAO implements DataAccessDao {
+
+	public CitezenshipDAO() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public User getUserFromSource(String username, String password) throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean checkUser(String mail, String username, String password) throws DaoException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

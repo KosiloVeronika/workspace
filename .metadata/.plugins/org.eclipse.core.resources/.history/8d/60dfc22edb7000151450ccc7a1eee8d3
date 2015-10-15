@@ -1,0 +1,17 @@
+package com.bsuir.adbLab1.command;
+
+import javax.servlet.http.HttpServletRequest;
+
+public class ShowCommand implements ICommand {
+
+	public ShowCommand() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String execute(HttpServletRequest request) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

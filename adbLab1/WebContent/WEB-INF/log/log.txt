@@ -1,0 +1,1037 @@
+2015-10-13 00:18:51,165 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:18:51,869 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:19:16,810 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:19:16,814 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:20:03,241 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:20:03,929 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:24:25,931 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:24:25,935 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:25:18,529 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:25:18,535 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:25:31,943 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:25:31,949 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:26:04,860 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:26:04,864 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:26:09,734 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:26:09,738 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:26:25,422 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:26:25,425 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:27:31,686 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:27:31,690 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:27:43,011 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:27:43,014 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:27:58,719 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:27:58,721 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:28:41,127 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:28:41,130 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:28:55,842 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:28:55,845 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:29:31,336 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:29:31,339 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:30:33,194 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:30:33,196 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:30:44,567 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:30:44,570 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:31:00,049 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:31:00,051 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:31:35,627 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:31:35,629 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:32:05,479 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:32:05,481 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:32:18,564 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:32:18,567 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:32:33,464 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:32:33,466 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:33:07,580 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:33:07,582 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:33:18,193 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:33:18,195 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:33:44,399 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:33:44,402 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:33:55,507 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:33:55,509 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:34:05,061 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:34:05,063 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:34:10,205 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:34:10,208 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:34:25,579 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:34:25,581 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:34:49,979 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:34:49,982 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:35:14,013 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:35:14,016 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:37:47,721 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:37:47,724 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:38:08,947 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:38:08,949 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:39:50,766 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:39:50,769 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:40:15,164 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:40:15,167 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:40:50,091 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:40:50,094 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:41:12,183 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:41:12,186 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:42:11,008 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:42:11,010 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:43:01,886 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:43:01,888 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:44:26,410 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:44:26,412 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:45:12,344 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:45:12,346 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:45:39,517 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:45:39,519 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:45:42,469 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:45:42,471 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:45:51,760 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:45:51,763 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:46:18,434 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:46:18,437 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:47:07,600 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:47:07,604 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:47:10,361 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:47:10,363 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:47:24,734 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:47:24,736 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:48:05,152 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:48:05,154 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:49:03,841 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:49:03,843 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:52:12,854 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:52:12,856 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:53:20,213 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:53:20,215 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:53:41,026 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:53:41,028 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:54:55,979 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:54:55,982 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:55:23,724 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:55:23,726 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:56:41,412 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:56:41,414 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:56:59,437 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:56:59,441 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 00:58:59,766 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 00:58:59,768 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:00:26,605 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:00:26,607 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:00:57,471 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:00:57,473 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:01:23,649 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:01:23,651 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:01:31,481 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:01:31,483 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:01:42,815 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:01:42,817 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:02:06,647 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:02:06,649 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:02:20,915 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:02:20,917 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:02:49,094 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:02:49,097 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:03:03,262 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:03:03,265 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:04:09,286 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:04:09,288 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:04:34,965 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:04:34,967 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:05:58,301 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:05:58,304 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:07:00,588 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:07:00,591 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:07:52,807 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:07:52,809 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:08:32,943 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:08:32,946 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:08:50,210 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:08:50,212 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:08:59,415 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:08:59,417 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:09:14,704 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:09:14,706 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:09:23,645 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:09:23,647 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:09:55,220 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:09:55,222 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:09:57,388 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:09:57,390 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:11:21,267 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:11:21,269 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:12:20,830 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:12:20,832 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:12:55,132 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:12:55,135 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:13:31,723 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:13:31,725 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 01:14:07,508 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 01:14:07,509 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 12:03:04,128 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 12:03:04,951 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 12:03:08,756 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 12:03:08,761 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 13:09:20,264 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 13:09:20,789 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.ShowCommand  - WE SHOW YOU users
+2015-10-13 13:17:01,514 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 13:17:02,153 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.ShowCommand  - WE SHOW YOU users
+2015-10-13 13:18:23,060 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 13:18:23,068 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.ShowCommand  - WE SHOW YOU users
+2015-10-13 13:20:16,897 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 13:20:17,490 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.ShowCommand  - WE SHOW YOU users
+2015-10-13 13:23:16,034 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 13:23:16,533 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.ShowCommand  - WE SHOW YOU users
+2015-10-13 13:25:24,907 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 13:25:25,472 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.ShowCommand  - WE SHOW YOU users
+2015-10-13 13:25:33,644 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 13:28:39,874 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 13:28:40,444 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.ShowCommand  - WE SHOW YOU users
+2015-10-13 13:28:43,412 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 13:28:43,426 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU users
+2015-10-13 13:30:51,450 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 13:30:52,022 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.ShowCommand  - WE SHOW YOU users
+2015-10-13 13:30:53,388 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 13:30:53,403 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 13:33:45,606 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 13:33:46,192 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.ShowCommand  - WE SHOW YOU users
+2015-10-13 13:33:47,829 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 13:33:47,843 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 15:30:00,575 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 15:30:01,227 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 15:32:37,079 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 15:32:37,685 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 15:42:16,482 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 15:42:17,168 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 15:43:03,270 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 15:43:03,273 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 15:43:38,152 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 15:43:38,160 [http-bio-8080-exec-4] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 15:43:59,261 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 15:43:59,265 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 15:44:28,169 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 15:44:28,177 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 15:45:32,484 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 15:45:32,490 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.ShowCommand  - WE SHOW YOU users
+2015-10-13 15:45:34,649 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 15:45:34,651 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 15:46:09,436 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 15:46:09,476 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 15:50:04,858 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 15:50:04,882 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 15:58:47,903 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 15:58:50,065 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 16:01:01,884 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:01:02,560 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 16:01:11,256 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:01:11,272 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.ShowCommand  - WE SHOW YOU users
+2015-10-13 16:02:10,733 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:02:10,760 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 16:08:24,533 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:08:24,561 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 16:09:31,214 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:09:31,939 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-13 16:10:54,878 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:10:54,897 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.ShowCommand  - WE SHOW YOU users
+2015-10-13 16:10:59,224 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:10:59,236 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 16:15:44,633 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:28:59,431 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:31:51,255 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:33:05,741 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:33:05,758 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE CHANGE user
+2015-10-13 16:36:59,739 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:36:59,798 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE CHANGE user
+2015-10-13 16:37:32,876 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:37:34,924 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE SHOW YOU users
+2015-10-13 16:39:08,474 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:39:09,111 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.ShowCommand  - WE SHOW YOU users
+2015-10-13 16:39:10,327 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:39:10,352 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.PageAddCommand  - WE ADD USER
+2015-10-13 16:41:18,268 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 16:41:18,289 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-13 17:20:58,580 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 17:20:58,649 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-13 17:22:47,001 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-13 17:22:47,049 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 00:42:36,083 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 00:42:36,257 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 00:47:15,078 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 00:47:15,169 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 00:48:28,162 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 00:48:28,230 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 00:51:55,467 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 00:51:55,493 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 00:54:30,629 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 00:54:30,670 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 00:54:31,300 [http-bio-8080-exec-1] ERROR com.bsuir.adbLab1.command.AddCommand  - SHOW ALL BOOKS
+com.bsuir.adbLab1.logic.LogicException: bla bla
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:22)
+	at com.bsuir.adbLab1.command.AddCommand.execute(AddCommand.java:71)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'passport_series' at row 1
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:269)
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:20)
+	... 25 more
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'passport_series' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3374)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2022)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:265)
+	... 26 more
+2015-10-14 01:04:59,500 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:04:59,535 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 01:05:00,192 [http-bio-8080-exec-2] ERROR com.bsuir.adbLab1.command.AddCommand  - SHOW ALL BOOKS
+com.bsuir.adbLab1.logic.LogicException: cant add user!
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:22)
+	at com.bsuir.adbLab1.command.AddCommand.execute(AddCommand.java:69)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'passport_series' at row 1
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:268)
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:20)
+	... 25 more
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'passport_series' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3374)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2022)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:264)
+	... 26 more
+2015-10-14 01:06:15,383 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:06:15,412 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 01:06:16,081 [http-bio-8080-exec-2] ERROR com.bsuir.adbLab1.command.AddCommand  - SHOW ALL BOOKS
+com.bsuir.adbLab1.logic.LogicException: cant add user!
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:22)
+	at com.bsuir.adbLab1.command.AddCommand.execute(AddCommand.java:69)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'passport_series' at row 1
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:268)
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:20)
+	... 25 more
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'passport_series' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3374)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2022)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:264)
+	... 26 more
+2015-10-14 01:07:47,367 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:07:50,670 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:07:50,734 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 01:07:52,850 [http-bio-8080-exec-5] ERROR com.bsuir.adbLab1.command.AddCommand  - SHOW ALL BOOKS
+com.bsuir.adbLab1.logic.LogicException: cant add user!
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:22)
+	at com.bsuir.adbLab1.command.AddCommand.execute(AddCommand.java:69)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'passport_series' at row 1
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:268)
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:20)
+	... 25 more
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'passport_series' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3374)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2022)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:264)
+	... 26 more
+2015-10-14 01:08:32,294 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:08:32,354 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 01:08:34,555 [http-bio-8080-exec-6] ERROR com.bsuir.adbLab1.command.AddCommand  - SHOW ALL BOOKS
+com.bsuir.adbLab1.logic.LogicException: cant add user!
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:22)
+	at com.bsuir.adbLab1.command.AddCommand.execute(AddCommand.java:69)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'passport_series' at row 1
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:268)
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:20)
+	... 25 more
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'passport_series' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3374)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2022)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:264)
+	... 26 more
+2015-10-14 01:09:51,519 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:09:51,575 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 01:09:53,738 [http-bio-8080-exec-10] ERROR com.bsuir.adbLab1.command.AddCommand  - something wrong in add
+com.bsuir.adbLab1.logic.LogicException: cant add user!
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:22)
+	at com.bsuir.adbLab1.command.AddCommand.execute(AddCommand.java:69)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'birth_place' cannot be null
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:268)
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:20)
+	... 25 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'birth_place' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1016)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2022)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:264)
+	... 26 more
+2015-10-14 01:11:51,794 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:11:51,846 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 01:11:53,622 [http-bio-8080-exec-7] ERROR com.bsuir.adbLab1.command.AddCommand  - something wrong in add
+com.bsuir.adbLab1.logic.LogicException: cant add user!
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:22)
+	at com.bsuir.adbLab1.command.AddCommand.execute(AddCommand.java:69)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'birth_place' cannot be null
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:268)
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:20)
+	... 25 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'birth_place' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1016)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2022)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:264)
+	... 26 more
+2015-10-14 01:12:34,510 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:12:34,568 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 01:12:36,597 [http-bio-8080-exec-3] ERROR com.bsuir.adbLab1.command.AddCommand  - something wrong in add
+com.bsuir.adbLab1.logic.LogicException: cant add user!
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:22)
+	at com.bsuir.adbLab1.command.AddCommand.execute(AddCommand.java:69)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'birth_place' cannot be null
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:268)
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:20)
+	... 25 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'birth_place' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1016)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2022)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:264)
+	... 26 more
+2015-10-14 01:14:52,572 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:14:52,634 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 01:14:54,809 [http-bio-8080-exec-3] ERROR com.bsuir.adbLab1.command.AddCommand  - something wrong in add
+com.bsuir.adbLab1.logic.LogicException: cant add user!
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:22)
+	at com.bsuir.adbLab1.command.AddCommand.execute(AddCommand.java:69)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'address' cannot be null
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:268)
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:20)
+	... 25 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'address' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1016)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2022)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:264)
+	... 26 more
+2015-10-14 01:15:59,366 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:15:59,395 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 01:16:00,072 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE SHOW YOU users
+2015-10-14 01:26:16,838 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:26:16,847 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 01:26:16,877 [http-bio-8080-exec-6] ERROR com.bsuir.adbLab1.command.AddCommand  - something wrong in add
+com.bsuir.adbLab1.logic.LogicException: cant add user!
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:22)
+	at com.bsuir.adbLab1.command.AddCommand.execute(AddCommand.java:69)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1888133' for key 'passport_number'
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:268)
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:20)
+	... 25 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1888133' for key 'passport_number'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1016)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2022)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:264)
+	... 26 more
+2015-10-14 01:26:40,213 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:26:40,218 [http-bio-8080-exec-9] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 01:26:40,234 [http-bio-8080-exec-9] ERROR com.bsuir.adbLab1.command.AddCommand  - something wrong in add
+com.bsuir.adbLab1.logic.LogicException: cant add user!
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:22)
+	at com.bsuir.adbLab1.command.AddCommand.execute(AddCommand.java:69)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '0120 3069 2222 1111' for key 'identification_number'
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:268)
+	at com.bsuir.adbLab1.logic.AddLogic.add(AddLogic.java:20)
+	... 25 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '0120 3069 2222 1111' for key 'identification_number'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1016)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3376)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2022)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.bsuir.adbLab1.dao.UserDAO.addUser(UserDAO.java:264)
+	... 26 more
+2015-10-14 01:27:03,349 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:27:03,354 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE ADD user
+2015-10-14 01:27:03,399 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.AddCommand  - WE SHOW YOU users
+2015-10-14 01:27:10,620 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:27:10,621 [http-bio-8080-exec-10] DEBUG com.bsuir.adbLab1.command.DeleteCommand  - WE DELETE user
+2015-10-14 01:27:10,626 [http-bio-8080-exec-10] ERROR com.bsuir.adbLab1.command.DeleteCommand  - SHOW ALL BOOKS
+com.bsuir.adbLab1.logic.LogicException: cant dlt
+	at com.bsuir.adbLab1.logic.DeleteLogic.delete(DeleteLogic.java:15)
+	at com.bsuir.adbLab1.command.DeleteCommand.execute(DeleteCommand.java:24)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.bsuir.adbLab1.dao.UserDAO.deleteUser(UserDAO.java:120)
+	at com.bsuir.adbLab1.logic.DeleteLogic.delete(DeleteLogic.java:13)
+	... 25 more
+Caused by: java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.StatementImpl.checkForDml(StatementImpl.java:413)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1297)
+	at com.bsuir.adbLab1.dao.UserDAO.deleteUser(UserDAO.java:112)
+	... 26 more
+2015-10-14 01:29:16,590 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:29:16,618 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.DeleteCommand  - WE DELETE user
+2015-10-14 01:29:17,280 [http-bio-8080-exec-1] ERROR com.bsuir.adbLab1.command.DeleteCommand  - SHOW ALL BOOKS
+com.bsuir.adbLab1.logic.LogicException: cant dlt
+	at com.bsuir.adbLab1.logic.DeleteLogic.delete(DeleteLogic.java:15)
+	at com.bsuir.adbLab1.command.DeleteCommand.execute(DeleteCommand.java:24)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.bsuir.adbLab1.dao.UserDAO.deleteUser(UserDAO.java:121)
+	at com.bsuir.adbLab1.logic.DeleteLogic.delete(DeleteLogic.java:13)
+	... 25 more
+Caused by: java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.StatementImpl.checkForDml(StatementImpl.java:413)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1297)
+	at com.bsuir.adbLab1.dao.UserDAO.deleteUser(UserDAO.java:113)
+	... 26 more
+2015-10-14 01:41:21,561 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:41:21,621 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.DeleteCommand  - WE DELETE user
+2015-10-14 01:41:23,802 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.DeleteCommand  - WE SHOW YOU users
+2015-10-14 01:42:21,955 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:42:21,984 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-14 01:42:49,004 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:42:49,009 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE CHANGE user
+2015-10-14 01:44:50,886 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:44:50,923 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE CHANGE user
+2015-10-14 01:46:05,083 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:46:05,105 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE CHANGE user
+2015-10-14 01:46:05,105 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - 
+2015-10-14 01:53:12,273 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:53:12,331 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE CHANGE user
+2015-10-14 01:53:12,331 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - 
+2015-10-14 01:56:08,277 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:56:08,300 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE CHANGE user
+2015-10-14 01:56:08,300 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - 
+2015-10-14 01:58:26,244 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:58:28,406 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.ShowCommand  - WE SHOW YOU users
+2015-10-14 01:58:35,544 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:58:35,567 [http-bio-8080-exec-6] ERROR com.bsuir.adbLab1.command.PageChangeCommand  - SHOW ALL BOOKS
+com.bsuir.adbLab1.logic.LogicException: bla bla
+	at com.bsuir.adbLab1.logic.ShowLogic.changeUser(ShowLogic.java:33)
+	at com.bsuir.adbLab1.command.PageChangeCommand.execute(PageChangeCommand.java:28)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: java.sql.SQLException: Column 'user_id!!!' not found.
+	at com.bsuir.adbLab1.dao.UserDAO.getUserByID(UserDAO.java:97)
+	at com.bsuir.adbLab1.logic.ShowLogic.changeUser(ShowLogic.java:30)
+	... 25 more
+Caused by: java.sql.SQLException: Column 'user_id!!!' not found.
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1056)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:957)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:927)
+	at com.mysql.jdbc.ResultSetImpl.findColumn(ResultSetImpl.java:1080)
+	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2719)
+	at com.bsuir.adbLab1.dao.UserDAO.getUserByID(UserDAO.java:58)
+	... 26 more
+2015-10-14 01:59:42,736 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 01:59:43,376 [http-bio-8080-exec-1] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-14 02:01:34,558 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 02:01:34,563 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE CHANGE user
+2015-10-14 02:01:34,563 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - 2
+2015-10-14 02:03:31,362 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 02:03:31,388 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE CHANGE user
+2015-10-14 02:03:31,388 [http-bio-8080-exec-2] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - 2
+2015-10-14 02:06:46,292 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 02:06:46,351 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE CHANGE user
+2015-10-14 02:06:46,351 [http-bio-8080-exec-3] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - 2
+2015-10-14 02:06:48,714 [http-bio-8080-exec-3] ERROR com.bsuir.adbLab1.command.ChangeCommand  - SHOW ALL BOOKS
+com.bsuir.adbLab1.logic.LogicException: bla bla
+	at com.bsuir.adbLab1.logic.ChangeLogic.change(ChangeLogic.java:17)
+	at com.bsuir.adbLab1.command.ChangeCommand.execute(ChangeCommand.java:69)
+	at com.bsuir.adbLab1.controller.Controller.processRequest(Controller.java:48)
+	at com.bsuir.adbLab1.controller.Controller.doPost(Controller.java:41)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:505)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:957)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1079)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.bsuir.adbLab1.dao.DaoException: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'authority' at row 1
+	at com.bsuir.adbLab1.dao.UserDAO.changeUser(UserDAO.java:225)
+	at com.bsuir.adbLab1.logic.ChangeLogic.change(ChangeLogic.java:15)
+	... 25 more
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'authority' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3374)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3308)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1837)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1961)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2543)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1737)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2022)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1940)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1925)
+	at com.bsuir.adbLab1.dao.UserDAO.changeUser(UserDAO.java:221)
+	... 26 more
+2015-10-14 02:10:07,552 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 02:10:07,558 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE CHANGE user
+2015-10-14 02:10:07,559 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - 2
+2015-10-14 02:10:07,665 [http-bio-8080-exec-5] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE SHOW YOU users
+2015-10-14 02:13:16,004 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 02:13:16,014 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE CHANGE user
+2015-10-14 02:13:16,014 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - 2
+2015-10-14 02:13:16,054 [http-bio-8080-exec-7] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE SHOW YOU users
+2015-10-14 02:13:21,779 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 02:13:21,801 [http-bio-8080-exec-8] DEBUG com.bsuir.adbLab1.command.PageChangeCommand  - WE SHOW YOU user you wanna change
+2015-10-14 02:14:50,100 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.CommandFactory  - Ã€ ¬ ‘¿¡–» ≈
+2015-10-14 02:14:50,104 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE CHANGE user
+2015-10-14 02:14:50,105 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - 2
+2015-10-14 02:14:50,135 [http-bio-8080-exec-6] DEBUG com.bsuir.adbLab1.command.ChangeCommand  - WE SHOW YOU users

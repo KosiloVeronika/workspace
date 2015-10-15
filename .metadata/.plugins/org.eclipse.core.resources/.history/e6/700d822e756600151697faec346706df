@@ -1,9 +1,0 @@
-package com.bsuir.adbLab1.command;
-
-public class CommandEnum {
-
-	public CommandEnum() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

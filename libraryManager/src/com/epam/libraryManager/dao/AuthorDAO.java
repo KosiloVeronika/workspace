@@ -9,6 +9,10 @@ import java.util.ArrayList;
 import com.epam.libraryManager.connectionpool.ConnectionPool;
 import com.epam.libraryManager.connectionpool.ConnectionPoolException;
 import com.epam.libraryManager.entity.Author;
+import com.epam.libraryManager.entity.Book;
+import com.epam.libraryManager.entity.Order;
+import com.epam.libraryManager.entity.Section;
+import com.epam.libraryManager.entity.Statment;
 import com.epam.libraryManager.entity.User;
 
 public class AuthorDAO implements DataAccessDao {
@@ -17,7 +21,7 @@ public class AuthorDAO implements DataAccessDao {
 	private final String GET_ALL_AUTHORS = "SELECT * FROM `author`";
 
 	@SuppressWarnings("null")
-	public ArrayList<Author> getAllSections() throws DaoException{
+	public ArrayList<Author> getAllAuthors() throws DaoException {
 		ArrayList<Author> authors = new ArrayList<Author>();
 		Author author = null;
 		Connection connection = null;
@@ -74,12 +78,48 @@ public class AuthorDAO implements DataAccessDao {
 
 	@Override
 	public User getUserFromSource(String username, String password) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public boolean checkUser(String mail, String username, String password) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Book> getBooksByUserId(int id) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Book> getAllBooks() throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Section> getAllSections() throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public Section getSectionById(int id) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Order> getAllOrders() throws DaoException {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public boolean checkUser(String mail, String username, String password) throws DaoException {
+	public ArrayList<Order> getOrdersByUserId(int i) throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean addOrder(int user_id, int book_id, Statment st) throws DaoException {
 		// TODO Auto-generated method stub
 		return false;
 	}

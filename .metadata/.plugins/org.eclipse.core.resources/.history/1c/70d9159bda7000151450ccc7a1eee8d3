@@ -1,0 +1,26 @@
+package com.bsuir.adbLab1.logic;
+
+import java.util.ArrayList;
+
+import com.bsuir.adbLab1.dao.DaoException;
+import com.bsuir.adbLab1.dao.UserDAO;
+import com.bsuir.adbLab1.entity.User;
+
+public class AddLogic {
+
+	public AddLogic() {}
+	
+	public static boolean add(User user) {
+		UserDAO userDao = new UserDAO();
+		try {
+			
+			//if(books != null) {
+				//return books;
+			//}
+			return userDao.addUser(user);
+		} catch (DaoException e) {
+			throw new LogicException("bla bla", e);
+		}
+	}
+
+}

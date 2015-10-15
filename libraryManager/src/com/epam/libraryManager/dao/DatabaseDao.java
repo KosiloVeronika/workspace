@@ -5,9 +5,15 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 
 import com.epam.libraryManager.connectionpool.ConnectionPool;
 import com.epam.libraryManager.connectionpool.ConnectionPoolException;
+import com.epam.libraryManager.entity.Author;
+import com.epam.libraryManager.entity.Book;
+import com.epam.libraryManager.entity.Order;
+import com.epam.libraryManager.entity.Section;
+import com.epam.libraryManager.entity.Statment;
 import com.epam.libraryManager.entity.User;
 import com.epam.libraryManager.hashPassword.HashPassword;
 
@@ -34,12 +40,11 @@ public class DatabaseDao implements DataAccessDao {
                 String hashPassword = resultSet.getString("password");
                 byte[] salt = resultSet.getString("salt").getBytes();
                 if(hash.hashPasswordWithSalt(password, salt).equals(hashPassword)) {
-                	System.out.println("WTF");
                 	user = new User();
-                	user.setUsername(resultSet.getString("login"));System.out.println("WTF");
+                	user.setUsername(resultSet.getString("login"));
                     user.setUsertype(resultSet.getInt("id_user_type_fk"));
-                }System.out.println("WTF");
-                System.out.println(user.toString());
+                    user.setUserID(resultSet.getInt("id_user"));
+                }
             }
             return user;
 
@@ -69,19 +74,12 @@ public class DatabaseDao implements DataAccessDao {
             	ps = connection.prepareStatement(REGISTRATION_QUERY);
             	salt = hash.makeSalt();
             	hashPasswrd = hash.hashPasswordWithSalt(password, salt);
-            	System.out.println(hashPasswrd);
             	ps.setString(1, username);
-            	System.out.println("юзернейм норм");
             	ps.setString(2, hashPasswrd);
-            	System.out.println("хэш норм");
             	ps.setInt(3, 0);
-            	System.out.println("админ норм");
             	ps.setString(4, new String(salt));
-            	System.out.println("соль норм");
             	ps.setString(5, mail);
-            	System.out.println("мыло норм");
             	ps.executeUpdate();
-            	System.out.println("финиш");
             	return true;
             } 
             return false;
@@ -92,6 +90,57 @@ public class DatabaseDao implements DataAccessDao {
 			pool.freeConnection(connection);
 		}
 	}
+
+	@Override
+	public ArrayList<Book> getAllBooks() throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Section> getAllSections() throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public Section getSectionById(int id) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Author> getAllAuthors() throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public Author getAuthorById(int id) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Order> getAllOrders() throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<Order> getOrdersByUserId(int i) throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<Book> getBooksByUserId(int id) throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean addOrder(int user_id, int book_id, Statment st) throws DaoException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
 	
 	
     

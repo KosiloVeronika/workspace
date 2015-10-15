@@ -6,6 +6,16 @@ public enum CommandEnum {
 			this.command = new LoginCommand();
 		}
 	},
+	ADD {
+		{
+			this.command = new OrderCommand();
+		}
+	},
+	SHOW_ORDERS {
+		{
+			this.command = new ShowOrderCommand();
+		}
+	},
 	SHOW_ALL_BOOKS {
 		{
 			this.command = new ShowAllBooksCommand();

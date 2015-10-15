@@ -9,6 +9,6 @@
 	<meta http-equiv="welcome-file-list" content="text/html; charset=utf-8">
 </head>
 <body>
-	<c:redirect url="jsp/login.jsp" />
+	<c:redirect url="/Controller?command=show" />
 </body>
 </html>

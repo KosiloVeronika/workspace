@@ -1,0 +1,33 @@
+package com.epam.libraryManager.logic;
+
+import org.apache.log4j.Logger;
+
+import com.epam.libraryManager.dao.DaoException;
+import com.epam.libraryManager.dao.OrderDAO;
+import com.epam.libraryManager.entity.Statment;
+
+public class OrderLogic {
+
+	private final static Logger LOG = Logger.getLogger(OrderLogic.class);
+	public static boolean addOrder(int user_id, int book_id, Statment st) throws LogicException {
+		OrderDAO orderDAO = new OrderDAO();
+		try {
+			System.out.println(user_id+" "+ book_id+ " " + st);
+			boolean result = orderDAO.addOrder(user_id, book_id, st);
+			return result;
+		} catch (DaoException e) {
+			throw new LogicException("!!!", e);
+		}
+	}
+
+	public static boolean cancelOrder(int order_id) throws LogicException {
+		OrderDAO orderDAO = new OrderDAO();
+		try {
+			System.out.println(order_id);
+			boolean result = orderDAO.cancelOrder(order_id);
+			return result;
+		} catch (DaoException e) {
+			throw new LogicException("not canceled", e);
+		}
+	}
+}

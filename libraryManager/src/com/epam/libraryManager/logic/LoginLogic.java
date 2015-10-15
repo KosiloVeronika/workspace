@@ -10,16 +10,13 @@ import com.epam.libraryManager.entity.User;
 public class LoginLogic {
 	private final static Logger LOG = Logger.getLogger(LoginLogic.class);
 	
-	public static boolean checkLogin(String enterLogin, String enterPass) throws LogicException {
+	public static User checkLogin(String enterLogin, String enterPass) throws LogicException {
 		DataAccessDao dataaccess = new DatabaseDao();
 		try {
 			User user = dataaccess.getUserFromSource(enterLogin, enterPass);
-			if(user != null) {
-				return true;
-			}
-			return false;
-		} catch (DaoException e) {
-			throw new LogicException("bla bla", e);
+			return user;
+		} catch (DaoException ex) {
+			throw new LogicException("Can't execute user", ex);
 		}
 	}
 

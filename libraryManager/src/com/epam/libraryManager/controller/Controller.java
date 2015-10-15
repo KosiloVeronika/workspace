@@ -44,6 +44,7 @@ public class Controller extends HttpServlet {
 			CommandFactory client = new CommandFactory();
 			ICommand command = client.defineCommand(request);
 			page = command.execute(request);
+			request.getSession(true);
 			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(page);
 			dispatcher.forward(request, response);
 			

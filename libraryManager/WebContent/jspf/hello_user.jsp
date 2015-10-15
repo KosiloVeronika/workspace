@@ -16,6 +16,9 @@
 		<a href=<c:url value="Controller?command=show_all_books"/> >
 			<fmt:message key="lables.allBooks" bundle="${resourceBundle}"/>
 		</a>
+		<a href=<c:url value="Controller?command=show_orders"/> >
+			<fmt:message key="lables.allOrders" bundle="${resourceBundle}"/>
+		</a>
 	    <span class="right">
 	        <a href="Controller?command=logout">
 	                <strong><fmt:message key="lables.exit" bundle="${resourceBundle}"/></strong>

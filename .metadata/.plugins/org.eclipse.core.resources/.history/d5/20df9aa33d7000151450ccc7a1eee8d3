@@ -1,0 +1,83 @@
+package com.bsuir.adbLab1.dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+import com.bsuir.adbLab1.connectionpool.ConnectionPool;
+import com.bsuir.adbLab1.connectionpool.ConnectionPoolException;
+import com.bsuir.adbLab1.entity.Citizenship;
+import com.bsuir.adbLab1.entity.City;
+import com.bsuir.adbLab1.entity.Disability;
+import com.bsuir.adbLab1.entity.MStatus;
+import com.bsuir.adbLab1.entity.User;
+
+public class StatusDAO implements DataAccessDao {
+	private final String GET_LIST = "SELECT * FROM `m_status`";
+
+	public StatusDAO() {
+	}
+
+	@Override
+	public User getUserFromSource(String username, String password) throws DaoException {
+		return null;
+	}
+
+	@Override
+	public boolean checkUser(String mail, String username, String password) throws DaoException {
+		return false;
+	}
+
+	@Override
+	public ArrayList<City> getCityList() throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<MStatus> getStatusList() throws DaoException {
+		ArrayList<Disability> list = new ArrayList<Disability>();
+		Disability disability = null;
+		Connection connection = null;
+		Statement statement;
+		ResultSet resultSet;
+        ConnectionPool pool = ConnectionPool.getInstance();
+        try {
+            connection = pool.getConnection();
+            statement = connection.createStatement();
+            resultSet = statement.executeQuery(GET_LIST);
+            while (resultSet.next()) {
+            	disability =  new Disability();
+            	System.out.print(resultSet.getInt("disability_id"));
+            	disability.setId(resultSet.getInt("disability_id"));//просил здесь SuppressWarnings("null")
+
+            	System.out.println(resultSet.getString("disability_category"));
+            	disability.setDisability(resultSet.getString("disability_category"));
+                list.add(disability);
+                System.out.println(disability.toString());
+            }
+        	statement.close();
+            return list;
+
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+        	pool.freeConnection(connection);
+        }
+	}
+
+	@Override
+	public ArrayList<Citizenship> getCitizenshipList() throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<Disability> getDisabilityList() throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

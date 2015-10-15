@@ -1,9 +1,0 @@
-package com.bsuir.adbLab1.command;
-
-public class CommandFactory {
-
-	public CommandFactory() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

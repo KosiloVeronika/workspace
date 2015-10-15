@@ -8,8 +8,9 @@
 <body>
 	<header>
 	    <div class="vladmaxi-top">
+	    <strong>Первая лабораторная</strong>
 	        <span class="right">
-	        	<strong>Первая лабораторная</strong>
+	        	<a href="${pageContext.servletContext.contextPath}/Controller?command=add_page"> Добавить</a>
 	        </span>
 	    <div class="clr"></div>
 	    </div>

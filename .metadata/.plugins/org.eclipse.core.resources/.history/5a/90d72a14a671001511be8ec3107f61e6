@@ -1,0 +1,101 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<link href="<c:url value="/css/style.css" />" rel="stylesheet" media="screen" type="text/css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="<c:url value="/js/validation.js"/>"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Добавить клиента</title>
+</head>
+<body>
+	<c:import url="/jspf/header.jsp" />
+    <div id="login-form">
+      <h1>Информация о клиенте</h1>
+        <fieldset>
+            <form method="POST" action="${pageContext.servletContext.contextPath}/Controller">
+	            <input type="hidden" name="command" value="change" />
+	            	Фамилия
+	                <input type="text" required name="surname" placeholder="Фамилия" value="<c:out value="${user.surname }"></c:out>"/>
+	                Имя
+	                <input type="text" required name="name" placeholder="Имя" value="<c:out value="${user.name } "></c:out>"/>
+	                Отчество
+	                <input type="text" required name="secondName" placeholder="Отчество" value="<c:out value="${user.secondName }"></c:out>"/>
+	                Дата рождения
+	                <input type="date" required name="dateOfBirth" placeholder="Дата рождения" value="<c:out value="${user.dateOfBirth }"></c:out>"/>
+	                Серия паспорта
+	                <input type="text" required name="passportSeries" placeholder="Серия паспорта" value="<c:out value="${user.passportSeries }"></c:out>"/>
+	                Номер паспорта
+	                <input type="number" required name="passportNumber" placeholder="Номер паспорта" value="<c:out value="${user.passportNumber }"></c:out>"/>
+	                Кем выдан
+	                <input type="text" required name="authority" placeholder="Кем выдан" value="<c:out value="${user.authority }"></c:out>"/>
+	                Дата выдачи
+	                <input type="date" required name="dateOfIssue" placeholder="Дата выдачи" value="<c:out value="${user.dateOfIssue }"></c:out>"/>
+	                Место рождения
+	                <input type="text" required name="birthPlace" placeholder="Место рождения"value="<c:out value="${user.birthPlace }"></c:out>"/>
+	                Город(факт проживания):
+	                <select name="cityID">
+	                	<c:forEach items = "${cityList }" var="city">
+	                		<c:if test="${city.id == user.city.id}">selected="selected"</c:if> label="${ city.city }"/>
+							<option value="${city.id }" label="${city.city }" />
+						</c:forEach>
+						
+						
+	                </select>
+	                Адрес
+	                <input type="text" required name="address" placeholder="Адрес" value="<c:out value="${user.address }"></c:out>"/>
+	                Домашний телефон
+	                <input type="tel" name="homeTelephone" pattern="2[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="Домашний телефон" value="<c:out value="${user.homeTelephone }"></c:out>"/>	                
+	                Мобильный телефон
+	                <input type="tel" name="mobileTelephone" pattern="+375-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="+375-xx-xxx-xx-xx" value="<c:out value="${user.mobileTelephone }"></c:out>"/>
+	                Е-мэйл
+	                <input type="email" name="email" placeholder="E-mail" value="<c:out value="${user.email }"></c:out>"/>
+	                Место работы
+	                <input type="text" required name="placeOfWork" placeholder="Место работы" value="<c:out value="${user.placeOfWork }"></c:out>"/>
+	                Должность
+	                <input type="text" required name="wPosition" placeholder="Должность" value="<c:out value="${user.wPosition }"></c:out>"/>	                
+	                Адрес прописки
+	                <input type="text" required name="registrationAddress" placeholder="Адрес прописки" value="<c:out value="${user.registrationAddress }"></c:out>"/>
+	                Семейное положение:
+	                <select name="maritalStatusID">
+	                	<c:forEach items = "${martialList }" var="martial">
+	                		<c:if test="${martial.id == user.maritalStatus.id}">selected="selected"</c:if> label="${ martial.status }"/>
+							<option value="${martial.id }" label="${martial.status }" />
+						</c:forEach>
+	                </select>
+	                Гражданство:
+	                <select name="citizenshipID">
+	                	<c:forEach items = "${citizenshipList }" var="ctzn">
+	                		<c:if test="${ctzn.id == user.citizenship.id}">selected="selected"</c:if> label="${ ctzn.citizenship }"/>
+							<option value="${ctzn.id }" label="${ctzn.citizenship }" />
+						</c:forEach>
+	                </select>
+	                Инвалидность:
+	                <select name="disabilityID">
+	                	<c:forEach items = "${disabilityList }" var="dsblt">
+	                		<c:if test="${dsblt.id == user.disability.id}">selected="selected"</c:if> label="${ dsblt.disability }"/>
+							<option value="${dsblt.id }" label="${dsblt.disability }" />
+						</c:forEach>
+	                </select>
+					<input type="radio" name="isPensioner" value="YES" />Пенсионер
+	            	<input type="radio" name="isPensioner" value="NO" />Не пенсионер
+	                Ежемесячный доход
+	                <input type="text" required name="monthlyIncome" placeholder="Ежемесячный доход" value="<c:out value="${user.monthlyIncome }"></c:out>"/>
+	                Идентификационный номер
+	                <input type="text" required name="identification_number" placeholder="Идентификационный номер" value="<c:out value="${user.identification_number }"></c:out>"/>
+	                
+	                <input type="submit" value="Добавить">
+	                <br/>
+					${errorLoginPassMessage}
+				<br/>
+					${wrongAction}
+				<br/>
+            </form>
+        </fieldset>
+    </div> 
+	<c:import url="/jspf/footer.jsp" />
+</body>
+</html>

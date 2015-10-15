@@ -1,9 +1,0 @@
-package com.epam.libraryManager.entity;
-
-public class Section {
-
-	public Section() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

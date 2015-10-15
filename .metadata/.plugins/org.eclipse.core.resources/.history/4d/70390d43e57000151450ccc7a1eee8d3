@@ -1,0 +1,9 @@
+package com.bsuir.adbLab1.logic;
+
+public class ChangeLogic {
+
+	public ChangeLogic() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

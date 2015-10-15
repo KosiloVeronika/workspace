@@ -32,9 +32,6 @@
             </form>
         </fieldset>
     </div> 
-	<a href="jsp/login.jsp">LogIn</a>
-	
-	<a href="jsp/registration.jsp">Register</a>
 	<c:import url="/jspf/footer.jsp" />
 </body>
 </html>

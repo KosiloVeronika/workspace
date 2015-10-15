@@ -1,0 +1,156 @@
+package com.epam.libraryManager.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+import com.epam.libraryManager.connectionpool.ConnectionPool;
+import com.epam.libraryManager.connectionpool.ConnectionPoolException;
+import com.epam.libraryManager.entity.Author;
+import com.epam.libraryManager.entity.Book;
+import com.epam.libraryManager.entity.Order;
+import com.epam.libraryManager.entity.Section;
+import com.epam.libraryManager.entity.Statment;
+import com.epam.libraryManager.entity.User;
+
+public class OrderDAO implements DataAccessDao {
+	private final String GET_ORDER_BY_USER_ID = "SELECT * FROM `order_table` WHERE id_user_fk = '%d' ";
+	private final String GET_ALL_BOOKS = "SELECT * FROM `order_table`";
+	private final String CANCEL_ORDER = "SELECT * FROM `order_table`";
+	private final String ADD_ORDER = "INSERT INTO `order_table`(`id_user_fk`,`id_book`,`statment`) VALUES (?,?,?)";
+
+	
+	@Override
+	public boolean addOrder(int user_id, int book_id, Statment st) throws DaoException {
+		
+		Connection connection = null;
+        ConnectionPool pool = ConnectionPool.getInstance();
+        try {
+    		PreparedStatement ps;
+            connection = pool.getConnection();
+            ps = connection.prepareStatement(ADD_ORDER);
+            System.out.println("order was confirmed0");
+            ps.setInt(1, user_id);
+            System.out.println("order was confirmed1");
+            ps.setInt(2, book_id);
+            System.out.println("order was confirmed2");
+            ps.setString(3, st.toString());
+            System.out.println("order was confirmed3");
+            ps.executeUpdate();
+            return true;
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+        	pool.freeConnection(connection);
+        }
+	}
+	
+	public boolean cancelOrder() throws DaoException {
+		boolean result = true;
+		Connection connection = null;
+        ConnectionPool pool = ConnectionPool.getInstance();
+        try {
+    		PreparedStatement ps;
+            connection = pool.getConnection();
+            ps = connection.prepareStatement(ADD_ORDER);
+            System.out.println("order was confirmed0");
+            ps.setInt(1, user_id);
+            System.out.println("order was confirmed1");
+            ps.setInt(2, book_id);
+            System.out.println("order was confirmed2");
+            ps.setString(3, st.toString());
+            System.out.println("order was confirmed3");
+            ps.executeUpdate();
+            return true;
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+        	pool.freeConnection(connection);
+        }
+		return result;
+	}
+	
+	@Override
+	public ArrayList<Order> getAllOrders() throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<Order> getOrdersByUserId(int id) throws DaoException {
+		ArrayList<Order> orders = new ArrayList<Order>();
+		Order order;
+		Connection connection = null;
+		Statement statement;
+		ResultSet resultSet;
+        ConnectionPool pool = ConnectionPool.getInstance();
+        try {
+            connection = pool.getConnection();
+            String query = String.format(GET_ORDER_BY_USER_ID , id);
+            BookDAO bd = new BookDAO();
+            statement = connection.createStatement();
+            resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+            	order = new Order();
+            	order.setOrderID(resultSet.getInt("id_order"));//просил здесь SuppressWarnings("null")
+            	order.setSt(Statment.valueOf(resultSet.getString("statment")));
+            	order.setBook(bd.getBookById(resultSet.getInt("id_book")));
+            	//order.getUser();
+                orders.add(order);
+            }
+        	statement.close();
+            return orders;
+
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+        	pool.freeConnection(connection);
+        }
+		
+	}
+
+
+	@Override
+	public User getUserFromSource(String username, String password) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public boolean checkUser(String mail, String username, String password) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Book> getAllBooks() throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Section> getAllSections() throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public Section getSectionById(int id) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Author> getAllAuthors() throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public Author getAuthorById(int id) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public ArrayList<Book> getBooksByUserId(int id) throws DaoException {
+		throw new UnsupportedOperationException();
+	}
+
+}

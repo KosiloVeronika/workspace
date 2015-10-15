@@ -4,6 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.apache.log4j.Logger;
 
+import com.epam.libraryManager.entity.User;
 import com.epam.libraryManager.logic.LogicException;
 import com.epam.libraryManager.logic.LoginLogic;
 import com.epam.libraryManager.resource.ConfigurationManager;
@@ -17,14 +18,17 @@ public class LoginCommand implements ICommand {
 	@Override
 	public String execute(HttpServletRequest request) {
 		String page = null;
-		// извлечение из запроса логина и пароля
 		String login = request.getParameter(PARAM_NAME_LOGIN);
 		String pass = request.getParameter(PARAM_NAME_PASSWORD);
-		// проверка логина и пароля
 		try {
-			if (LoginLogic.checkLogin(login, pass)) {
-				request.setAttribute("user", login);
-				// определение пути к main.jsp
+			User user = LoginLogic.checkLogin(login, pass);
+			if (user != null) {
+				request.getSession(true).setAttribute("user", login);
+				request.getSession(true).setAttribute("admin", user.getUsertype());
+
+				LOG.debug(user.getUserID());
+				request.getSession(true).setAttribute("user_id", user.getUserID());
+				//request.setAttribute("user", login);
 				LOG.debug("user has been logged");
 				page = ConfigurationManager.getProperty("path.page.main");
 			} else {

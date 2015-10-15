@@ -1,0 +1,129 @@
+package com.bsuir.adbLab1.dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+import com.bsuir.adbLab1.connectionpool.ConnectionPool;
+import com.bsuir.adbLab1.connectionpool.ConnectionPoolException;
+import com.bsuir.adbLab1.entity.Citizenship;
+import com.bsuir.adbLab1.entity.City;
+import com.bsuir.adbLab1.entity.Disability;
+import com.bsuir.adbLab1.entity.MStatus;
+import com.bsuir.adbLab1.entity.User;
+
+public class UserDAO implements DataAccessDao {
+
+	private final String GET_USER_LIST = "SELECT * FROM `user`";
+	public UserDAO() {	}
+
+
+	@Override
+	public ArrayList<User> getUserList() throws DaoException {
+		ArrayList<User> list = new ArrayList<User>();
+		User user = null;
+		Connection connection = null;
+		CitizenshipDAO citizenshipDao = new CitizenshipDAO();
+		CityDAO cityDao = new CityDAO();
+		DisabilityDAO disability = new DisabilityDAO();
+		StatusDAO statusDao = new StatusDAO();
+		Statement statement;
+		ResultSet resultSet;
+        ConnectionPool pool = ConnectionPool.getInstance();
+        try {
+            connection = pool.getConnection();
+            statement = connection.createStatement();
+            resultSet = statement.executeQuery(GET_USER_LIST);
+            while (resultSet.next()) {
+            	user =  new User();
+            	user.setUserID(resultSet.getInt("user_id"));//просил здесь SuppressWarnings("null")
+            	
+            	user.setSurname(resultSet.getString("surname"));
+            	user.setName(resultSet.getString("first_name"));
+            	user.setSecondName(resultSet.getString("second_name"));
+            	
+            	user.setDateOfBirth(resultSet.getDate("birth_date"));
+            	user.setPassportSeries(resultSet.getString("passport_series"));
+            	user.setAuthority(resultSet.getString("authority"));
+            	
+            	user.setDateOfIssue(resultSet.getDate("date_of_issue"));
+            	user.setBirthPlace(resultSet.getString("birth_place"));
+            	
+            	user.setCity(cityDao.getCityById(Integer.parseInt(resultSet.getString("city_id_fk"))));
+            	
+            	user.setAddress(resultSet.getString("address"));
+            	user.setHomeTelephone(resultSet.getString("home_telephone"));
+            	user.setMobileTelephone(resultSet.getString("mobile_telephone"));
+            	user.setEmail(resultSet.getString("email"));
+            	user.setPlaceOfWork(resultSet.getString("place_of_work"));
+            	user.setwPosition(resultSet.getString("w_position"));
+            	user.setRegistrationAddress(resultSet.getString("registration_address"));
+            	
+            	user.setMaritalStatus(statusDao.getStatusById(Integer.parseInt(resultSet.getString("marital_status_id_fk"))));
+            	
+            	user.setCitizenship(resultSet.getString("citizenship_id_fk"));
+            	
+            	
+            	user.setDisability(resultSet.getString("disability_id_fk"));
+            	
+            	user.setIsPensioner(resultSet.getString("pensioner"));
+            	
+            	user.setMonthlyIncome(resultSet.getString("monthly_income"));
+            	user.setIdentification_number(resultSet.getString("identification_number"));
+                list.add(user);
+                System.out.println(user.toString());
+            }
+        	statement.close();
+            return list;
+
+        } catch (SQLException | ConnectionPoolException ex) {
+            throw new DaoException(ex);
+        } finally {
+        	pool.freeConnection(connection);
+        }
+	}
+
+	@Override
+	public boolean changeUser(User user) throws DaoException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean addUser(User user) throws DaoException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public ArrayList<City> getCityList() throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<MStatus> getStatusList() throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<Citizenship> getCitizenshipList() throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<Disability> getDisabilityList() throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User showUser(int id) throws DaoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.bsuir.adbLab1.command;
+
+public class AddCommand {
+
+	public AddCommand() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

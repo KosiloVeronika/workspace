@@ -2,24 +2,34 @@ package com.bsuir.adbLab1.command;
 
 public enum CommandEnum {
 
-	LOGIN {
+	ADD{
 		{
-			//this.command = new LoginCommand();
+			this.command = new AddCommand();
 		}
 	},
-	LOCALE {
+	ADD_PAGE{
 		{
-			//this.command = new ChangeLocaleCommand();
+			this.command = new PageAddCommand();
 		}
 	},
-	REGISTRATION {
+	CHANGE_PAGE{
 		{
-			//this.command = new RegistrationCommand();
+			this.command = new PageChangeCommand();
 		}
 	},
-	LOGOUT {
+	DELETE {
 		{
-			//this.command = new LogoutCommand();
+			this.command = new DeleteCommand();
+		}
+	},
+	CHANGE {
+		{
+			this.command = new ChangeCommand();
+		}
+	},
+	SHOW {
+		{
+			this.command = new ShowCommand();					
 		}
 	};
 	ICommand command;

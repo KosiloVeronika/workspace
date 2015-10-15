@@ -1,0 +1,10 @@
+package com.bsuir.adbLab1.dao;
+
+import com.bsuir.adbLab1.entity.User;
+
+public interface DataAccessDao {
+	User getUserFromSource(String username, String password) throws DaoException;
+	boolean checkUser(String mail, String username, String password) throws DaoException;
+	ArrayList<City> getCityList(String mail, String username, String password) throws DaoException;
+	
+}

@@ -27,7 +27,7 @@
 			        <input type="password" name="password" placeholder="<fmt:message key="placeholder.password" bundle="${resourceBundle}"/>">
 			        <input type="submit" name="command" value="<fmt:message key="button.registration" bundle="${resourceBundle}"/>">
 			        <input type="reset" value="Reset">
-			        <a href="login.jsp">Login Here</a>
+			        <a href='<c:url value="/jsp/login.jsp"/>'>Login Here</a>
 			        <br/>
 						${errorRegistrationPassMessage}
 					<br/>

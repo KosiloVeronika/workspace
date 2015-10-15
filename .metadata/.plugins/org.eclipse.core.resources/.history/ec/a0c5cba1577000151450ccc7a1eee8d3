@@ -1,0 +1,9 @@
+package com.bsuir.adbLab1.command;
+
+public class ChangeCommand {
+
+	public ChangeCommand() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
